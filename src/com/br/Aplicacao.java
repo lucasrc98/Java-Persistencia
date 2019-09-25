@@ -33,60 +33,64 @@ public class Aplicacao {
 	
 	public static void main(String[] args) {
 
-		String FILE_CSV = "/home/lucas/git/persistencia/Java-Persistencia/files/chicago-crimes.csv";
 		
 		BufferedReader conteudoCSV = null;
 		
 		String linha = "";
 		
-		try {
-			// ABRIR ARQUIVO CSV
-			BufferedReader leitorCsv = new BufferedReader(new FileReader(FILE_CSV));
-			
-			
-			// CRIAR FABRICA PARA GERAR NOVO DOCUMENTO XML
-			DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-			DocumentBuilder docBuilder = factory.newDocumentBuilder();
-			Document document = docBuilder.newDocument();
-			
-			// CRIAR ELEMENTO PRINCIPAL DO XML
-			Element raiz = document.createElement("crimes");
-			document.appendChild(raiz);
-			
-			// LER DADOS DO CSV
-			lerDados(leitorCsv, document, raiz);
-			
-		}catch (Exception e) {
-			// TODO: handle exception
-		}
-		
+//		try {
+//			// ABRIR ARQUIVO CSV
+//			BufferedReader leitorCsv = new BufferedReader(new FileReader(FILE_CSV));
+//			
+//			
+//			// CRIAR FABRICA PARA GERAR NOVO DOCUMENTO XML
+//			DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+//			DocumentBuilder docBuilder = factory.newDocumentBuilder();
+//			Document document = docBuilder.newDocument();
+//			
+//			// CRIAR ELEMENTO PRINCIPAL DO XML
+//			Element raiz = document.createElement("crimes");
+//			document.appendChild(raiz);
+//			
+//			// LER DADOS DO CSV
+//			lerDados(leitorCsv, document, raiz);
+//			
+//		}catch (Exception e) {
+//			// TODO: handle exception
+//		}
+//		
 		String csvSeparatorCampo = ",";
 		
 
 		try {
 			
-			conteudoCSV = new BufferedReader(new FileReader(FILE_CSV));
+			BufferedReader leitorCsv = new BufferedReader(new FileReader(FILE_CSV));
+			
+			
+			
+			
+			conteudoCSV = leitorCsv;
 			
 			while ((linha = conteudoCSV.readLine()) != null) {
 				
 				String[] moeda = linha.split(csvSeparatorCampo);
 				
 				System.out.println("[Data = " + moeda[0]
-						+ " , Col = 1 " + moeda[1]
-						+ " , Col = 2 " + moeda[2]
-						+ " , Col = 3 " + moeda[3]
-						+ " , Col = 4 " + moeda[4]
-						+ " , Col = 5 " + moeda[5]
-						+ " , Col = 6 " + moeda[6]
-						+ " , Col = 7 " + moeda[7]
-						+ " , Col = 8 " + moeda[8]
-						+ " , Col = 9 " + moeda[9]
-						+ " , Col = 10 " + moeda[10]
-						+ " , Col = 11 " + moeda[11]
-						+ " , Col = 12 " + moeda[12]
-						+ " , Col = 13 " + moeda[13]
-						+ " , Col = 14 " + moeda[14]
-						+ " , Col = 15 " + moeda[15] + "]");						
+						+ " ,  = 1 " + moeda[1]
+						+ " , dados  = 2 " + moeda[2]
+						+ " , dados  = 3 " + moeda[3]
+						+ " , dados  = 4 " + moeda[4]
+						+ " , dados  = 5 " + moeda[5]
+						+ " , dados  = 6 " + moeda[6]
+						+ " , dados  = 7 " + moeda[7]
+						+ " , dados  = 8 " + moeda[8]
+						+ " , dados  = 9 " + moeda[9]
+						+ " , dados  = 10 " + moeda[10]
+						+ " , dados  = 11 " + moeda[11]
+						+ " , dados  = 12 " + moeda[12]
+						+ " , dados  = 13 " + moeda[13]
+						+ " , dados  = 14 " + moeda[14]
+						+ " , dados  = 15 " + moeda[15] + "]");						
 			} 
 			
 		} catch (FileNotFoundException e) {
@@ -161,21 +165,21 @@ public class Aplicacao {
 			Element nodeId = document.createElement("id");
 			nodeNumero.appendChild(document.createTextNode(crime.getId()));
 
-			crimeElement.appendChild(nodeNumero); 
-			crimeElement.appendChild(nodeId); 
-
-			root.appendChild(crimeElement);
-			
-			
-			
-			crime.appendChild(localizacao);
-			
-			// CRIA NOVO ELEMENTO
-			Element novoElemento = doc.createElement("novoElemento");
-			novoElemento.appendChild(doc.createTextNode(data[0])); // ADICIONAR DADOS DO CSV NO XML
-
-			// ADICIONA NOVO ELEMENTO COMO FILHO DO ELEMENTO ROOT(PRINCIPAL)		
-			root.appendChild(novoElemento);
+//			crimeElement.appendChild(nodeNumero); 
+//			crimeElement.appendChild(nodeId); 
+//
+//			root.appendChild(crimeElement);
+//			
+//			
+//			
+//			crime.appendChild(localizacao);
+//			
+//			// CRIA NOVO ELEMENTO
+//			Element novoElemento = doc.createElement("novoElemento");
+//			novoElemento.appendChild(doc.createTextNode(data[0])); // ADICIONAR DADOS DO CSV NO XML
+//
+//			// ADICIONA NOVO ELEMENTO COMO FILHO DO ELEMENTO ROOT(PRINCIPAL)		
+//			root.appendChild(novoElemento);
 		}
 	}
 }
