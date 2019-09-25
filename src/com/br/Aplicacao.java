@@ -26,14 +26,12 @@ import com.br.models.Localizacao;
 
 public class Aplicacao {
 	
-	private final static Integer QUANTIDADE_DADOS = 20;
+	private final static Integer QUANTIDADE_EXIBICAO = 20;
 	
 	private static String FILE_CSV = "D:\\Git\\Java-Persistencia\\files\\chicago-crimes.csv";
 	private static String FILE_XML = "D:\\Git\\Java-Persistencia\\files\\chicago-crimes.xml";
 	private static String FILE_JSON = "D:\\Git\\Java-Persistencia\\files\\chicago-crimes.json";
 	
-	private static LerFiles leitor;
-	private static TransformarFiles transformar;
 	
 	public static void main(String[] args) {
 
@@ -77,17 +75,6 @@ public class Aplicacao {
 		}
 		
 		
-//		
-//		leitor = new LerFiles();
-//		transformar = new TransformarFiles();
-//
-////		entidade = "livro";
-////		raiz_XML = "acervo";
-//		
-//		String delimitador = ",";
-//		
-//		
-//		leitor.lerCSV(FILE_CSV, delimitador);
 		
 	}
 	
@@ -96,14 +83,16 @@ public class Aplicacao {
 		String[] data;
 		leitorCsv.readLine();
 		
-		/// LER UMA QUANTIDADE DETERMINADA DE DADOS
-		for (int i = 0; i < QUANTIDADE_DADOS; i++) {
+		// LER UMA QUANTIDADE DETERMINADA DE DADOS
+		for (int i = 0; i < QUANTIDADE_EXIBICAO; i++) {
 			linha = leitorCsv.readLine(); // LER LINHA DO CSV
 			data = linha.split(",");  // GERA UM ARRAY 
 		
+			// CRIA NOVO ELEMENTO
 			Element crime = document.createElement("crime");
 			
 			
+			// SETANDO OS ATRIBUTOS DO ELEMENTO
 			crime.appendChild(createElement(document, "numero", data[0])); 
 			crime.appendChild(createElement(document, "id", data[1]));
 			crime.appendChild(createElement(document, "case_number", data[2]));
