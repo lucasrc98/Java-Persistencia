@@ -78,50 +78,57 @@ public class Aplicacao {
 			linha = leitorCsv.readLine(); // LER LINHA DO CSV
 			data = linha.split(",");  // GERA UM ARRAY 
 		
-			Crime crime = new Crime();
+			Element crime = document.createElement("crime");
 			
-			crime.setNumero(data[0]);
-			crime.setId(data[1]);
-			crime.setCase_number(data[2]);
-			crime.setDate(data[3]);
-			crime.setBlock(data[4]);
-			crime.setIucr(data[5]);
-			crime.setPrimary_type(data[6]);
-			crime.setDescription(data[7]);
-			crime.setArrest(data[8]);
-			crime.setDomestic(data[9]);
-			crime.setBeat(data[10]);
-			crime.setDistrict(data[11]);
-			crime.setWard(data[12]);
-			crime.setFbi_code(data[13]);
-			crime.setYear(data[14]);
-			crime.setUpdated_on(data[15]);
+			
+//			crime.appendChild(createElement(document, "numero", data[0])); 
+//			crime.setId(data[1]);
+//			crime.setCase_number(data[2]);
+//			crime.setDate(data[3]);
+//			crime.setBlock(data[4]);
+//			crime.setIucr(data[5]);
+//			crime.setPrimary_type(data[6]);
+//			crime.setDescription(data[7]);
+//			crime.setArrest(data[8]);
+//			crime.setDomestic(data[9]);
+//			crime.setBeat(data[10]);
+//			crime.setDistrict(data[11]);
+//			crime.setWard(data[12]);
+//			crime.setFbi_code(data[13]);
+//			crime.setYear(data[14]);
+//			crime.setUpdated_on(data[15]);
 			
 			
 
-			Element rimeElement = document.createElement("crime");
-			
-			Element nodeNumero = document.createElement("numero");
-			nodeNumero.appendChild(document.createTextNode(crime.getNumero()));
-
-			Element nodeId = document.createElement("id");
-			nodeNumero.appendChild(document.createTextNode(crime.getId()));
-
-			crimeElement.appendChild(nodeNumero); 
-			crimeElement.appendChild(nodeId); 
-
-			root.appendChild(crimeElement);
-			
-			
-			
-			crime.appendChild(localizacao);
-			
-			// CRIA NOVO ELEMENTO
-			Element novoElemento = doc.createElement("novoElemento");
-			novoElemento.appendChild(doc.createTextNode(data[0])); // ADICIONAR DADOS DO CSV NO XML
-
-			// ADICIONA NOVO ELEMENTO COMO FILHO DO ELEMENTO ROOT(PRINCIPAL)		
-			root.appendChild(novoElemento);
+//			Element rimeElement = document.createElement("crime");
+//			Element rimeElement = document.createElement("localizacao");
+//			
+//			Element nodeNumero = document.createElement("numero");
+//			nodeNumero.appendChild(document.createTextNode(crime.getNumero()));
+//
+//			Element nodeId = document.createElement("id");
+//			nodeNumero.appendChild(document.createTextNode(crime.getId()));
+//
+//			crimeElement.appendChild(nodeNumero); 
+//			crimeElement.appendChild(nodeId); 
+//
+//			root.appendChild(crimeElement);
+//			
+//			
+//			
+//			crime.appendChild(localizacao);
+//			
+//			// CRIA NOVO ELEMENTO
+//			Element novoElemento = doc.createElement("novoElemento");
+//			novoElemento.appendChild(doc.createTextNode(data[0])); // ADICIONAR DADOS DO CSV NO XML
+//
+//			// ADICIONA NOVO ELEMENTO COMO FILHO DO ELEMENTO ROOT(PRINCIPAL)		
+//			root.appendChild(novoElemento);
 		}
+	}
+	private static Element createElement(Document doc, String name, String value) {
+		Element node = doc.createElement(name);
+		node.appendChild(doc.createTextNode(value));
+		return node;
 	}
 }
