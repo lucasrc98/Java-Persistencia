@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="crimes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="crime"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="crime">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="numero"/>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="arrest"/>
+          <xs:element ref="beat"/>
+          <xs:element ref="block"/>
+          <xs:element ref="case_number"/>
+          <xs:element ref="date"/>
+          <xs:element ref="description"/>
+          <xs:element ref="district"/>
+          <xs:element ref="domestic"/>
+          <xs:element ref="fbi_code"/>
+          <xs:element ref="id"/>
+          <xs:element ref="iucr"/>
+          <xs:element ref="primary_type"/>
+          <xs:element ref="updated_on"/>
+          <xs:element ref="ward"/>
+          <xs:element ref="year"/>
+        </xs:choice>
+        <xs:element ref="location_description"/>
+        <xs:element ref="community_area"/>
+        <xs:element ref="x_coordinate"/>
+        <xs:element ref="y_coordinate"/>
+        <xs:element ref="latitude"/>
+        <xs:element ref="longitude"/>
+        <xs:element ref="location"/>
+        <xs:element ref="id_loc"/>
+        <xs:element ref="localizacao"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="numero" type="xs:integer"/>
+  <xs:element name="arrest" type="xs:NCName"/>
+  <xs:element name="beat" type="xs:integer"/>
+  <xs:element name="block" type="xs:string"/>
+  <xs:element name="case_number" type="xs:NCName"/>
+  <xs:element name="date" type="xs:string"/>
+  <xs:element name="description" type="xs:string"/>
+  <xs:element name="district" type="xs:integer"/>
+  <xs:element name="domestic" type="xs:NCName"/>
+  <xs:element name="fbi_code" type="xs:integer"/>
+  <xs:element name="id" type="xs:integer"/>
+  <xs:element name="iucr" type="xs:integer"/>
+  <xs:element name="primary_type" type="xs:string"/>
+  <xs:element name="updated_on" type="xs:string"/>
+  <xs:element name="ward" type="xs:integer"/>
+  <xs:element name="year" type="xs:integer"/>
+  <xs:element name="location_description" type="xs:integer"/>
+  <xs:element name="community_area" type="xs:NCName"/>
+  <xs:element name="x_coordinate" type="xs:string"/>
+  <xs:element name="y_coordinate" type="xs:string"/>
+  <xs:element name="latitude" type="xs:integer"/>
+  <xs:element name="longitude" type="xs:string"/>
+  <xs:element name="location" type="xs:string"/>
+  <xs:element name="id_loc" type="xs:NCName"/>
+  <xs:element name="localizacao">
+    <xs:complexType/>
+  </xs:element>
+</xs:schema>
