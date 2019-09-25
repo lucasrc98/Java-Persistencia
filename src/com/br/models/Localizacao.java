@@ -2,21 +2,21 @@ package com.br.models;
 
 public class Localizacao {
 	
-	private int id;
+	private String id;
 	private String location_description;
 	private String community_area;
-	private Float x_coordinate;
-	private Float y_coordinate;
-	private Float latitude;
-	private Float longitude;
+	private String x_coordinate;
+	private String y_coordinate;
+	private String latitude;
+	private String longitude;
 	private String location;
-	private int id_loc;
+	private String id_loc;
 	
 	
-	public int getId() {
+	public String getId() {
 		return id;
 	}
-	public void setId(int id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 	public String getLocation_description() {
@@ -31,28 +31,28 @@ public class Localizacao {
 	public void setCommunity_area(String community_area) {
 		this.community_area = community_area;
 	}
-	public Float getX_coordinate() {
+	public String getX_coordinate() {
 		return x_coordinate;
 	}
-	public void setX_coordinate(Float x_coordinate) {
+	public void setX_coordinate(String x_coordinate) {
 		this.x_coordinate = x_coordinate;
 	}
-	public Float getY_coordinate() {
+	public String getY_coordinate() {
 		return y_coordinate;
 	}
-	public void setY_coordinate(Float y_coordinate) {
+	public void setY_coordinate(String y_coordinate) {
 		this.y_coordinate = y_coordinate;
 	}
-	public Float getLatitude() {
+	public String getLatitude() {
 		return latitude;
 	}
-	public void setLatitude(Float latitude) {
+	public void setLatitude(String latitude) {
 		this.latitude = latitude;
 	}
-	public Float getLongitude() {
+	public String getLongitude() {
 		return longitude;
 	}
-	public void setLongitude(Float longitude) {
+	public void setLongitude(String longitude) {
 		this.longitude = longitude;
 	}
 	public String getLocation() {
@@ -61,10 +61,10 @@ public class Localizacao {
 	public void setLocation(String location) {
 		this.location = location;
 	}
-	public int getId_loc() {
+	public String getId_loc() {
 		return id_loc;
 	}
-	public void setId_loc(int id_loc) {
+	public void setId_loc(String id_loc) {
 		this.id_loc = id_loc;
 	}
 	

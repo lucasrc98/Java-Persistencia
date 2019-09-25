@@ -2,35 +2,35 @@ package com.br.models;
 
 public class Crime {
 
-	private int numero;
-	private int id;
+	private String numero;
+	private String id;
 	private String case_number;
 	private String date;
 	private String block;
 	private String iucr;
 	private String primary_type;
 	private String description;
-	private Boolean arrest;
-	private Boolean domestic;
-	private float beat;
-	private float district;
-	private float ward;
+	private String arrest;
+	private String domestic;
+	private String beat;
+	private String district;
+	private String ward;
 	private String fbi_code;
-	private int year;
+	private String year;
 	private String updated_on;
 	
 	Localizacao localizacaoObj;
 	
-	public int getNumero() {
+	public String getNumero() {
 		return numero;
 	}
-	public void setNumero(int numero) {
+	public void setNumero(String numero) {
 		this.numero = numero;
 	}
-	public int getId() {
+	public String getId() {
 		return id;
 	}
-	public void setId(int id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 	public String getCase_number() {
@@ -69,34 +69,34 @@ public class Crime {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public Boolean getArrest() {
+	public String getArrest() {
 		return arrest;
 	}
-	public void setArrest(Boolean arrest) {
+	public void setArrest(String arrest) {
 		this.arrest = arrest;
 	}
-	public Boolean getDomestic() {
+	public String getDomestic() {
 		return domestic;
 	}
-	public void setDomestic(Boolean domestic) {
+	public void setDomestic(String domestic) {
 		this.domestic = domestic;
 	}
-	public float getBeat() {
+	public String getBeat() {
 		return beat;
 	}
-	public void setBeat(float beat) {
+	public void setBeat(String beat) {
 		this.beat = beat;
 	}
-	public float getDistrict() {
+	public String getDistrict() {
 		return district;
 	}
-	public void setDistrict(float district) {
+	public void setDistrict(String district) {
 		this.district = district;
 	}
-	public float getWard() {
+	public String getWard() {
 		return ward;
 	}
-	public void setWard(float ward) {
+	public void setWard(String ward) {
 		this.ward = ward;
 	}
 	public String getFbi_code() {
@@ -105,10 +105,10 @@ public class Crime {
 	public void setFbi_code(String fbi_code) {
 		this.fbi_code = fbi_code;
 	}
-	public int getYear() {
+	public String getYear() {
 		return year;
 	}
-	public void setYear(int year) {
+	public void setYear(String year) {
 		this.year = year;
 	}
 	public String getUpdated_on() {
