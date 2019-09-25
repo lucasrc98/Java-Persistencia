@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<crimes>
+  <crime>
+    <numero>264311</numero>
+    <id>5233406</id>
+    <case_number>HN115018</case_number>
+    <date>01/01/2001 12:00:00 AM</date>
+    <block>009XX W ADAMS ST</block>
+    <iucr>0810</iucr>
+    <primary_type>THEFT</primary_type>
+    <description>OVER $500</description>
+    <arrest>t</arrest>
+    <domestic>f</domestic>
+    <beat>1213</beat>
+    <district>12</district>
+    <ward>2</ward>
+    <fbi_code>06</fbi_code>
+    <year>2001</year>
+    <updated_on>12/04/2014 12:43:35 PM</updated_on>
+    <id>264311</id>
+    <location_description>5233406</location_description>
+    <community_area>HN115018</community_area>
+    <x_coordinate>01/01/2001 12:00:00 AM</x_coordinate>
+    <y_coordinate>009XX W ADAMS ST</y_coordinate>
+    <latitude>0810</latitude>
+    <longitude>THEFT</longitude>
+    <location>OVER $500</location>
+    <id_loc>t</id_loc>
+    <localizacao/>
+  </crime>
+  <crime>
+    <numero>274010</numero>
+    <id>5250640</id>
+    <case_number>HN128586</case_number>
+    <date>01/01/2001 09:00:00 AM</date>
+    <block>003XX W 56TH PL</block>
+    <iucr>0840</iucr>
+    <primary_type>THEFT</primary_type>
+    <description>FINANCIAL ID THEFT: OVER $300</description>
+    <arrest>f</arrest>
+    <domestic>f</domestic>
+    <beat>711</beat>
+    <district>7</district>
+    <ward>3</ward>
+    <fbi_code>06</fbi_code>
+    <year>2001</year>
+    <updated_on>02/01/2007 06:57:55 AM</updated_on>
+    <id>274010</id>
+    <location_description>5250640</location_description>
+    <community_area>HN128586</community_area>
+    <x_coordinate>01/01/2001 09:00:00 AM</x_coordinate>
+    <y_coordinate>003XX W 56TH PL</y_coordinate>
+    <latitude>0840</latitude>
+    <longitude>THEFT</longitude>
+    <location>FINANCIAL ID THEFT: OVER $300</location>
+    <id_loc>f</id_loc>
+    <localizacao/>
+  </crime>
+  <crime>
+    <numero>278293</numero>
+    <id>5259096</id>
+    <case_number>HN134246</case_number>
+    <date>06/01/2001 09:00:00 AM</date>
+    <block>052XX S LOOMIS BLVD</block>
+    <iucr>0840</iucr>
+    <primary_type>THEFT</primary_type>
+    <description>FINANCIAL ID THEFT: OVER $300</description>
+    <arrest>f</arrest>
+    <domestic>f</domestic>
+    <beat>933</beat>
+    <district>9</district>
+    <ward>16</ward>
+    <fbi_code>06</fbi_code>
+    <year>2001</year>
+    <updated_on>02/25/2007 06:33:21 AM</updated_on>
+    <id>278293</id>
+    <location_description>5259096</location_description>
+    <community_area>HN134246</community_area>
+    <x_coordinate>06/01/2001 09:00:00 AM</x_coordinate>
+    <y_coordinate>052XX S LOOMIS BLVD</y_coordinate>
+    <latitude>0840</latitude>
+    <longitude>THEFT</longitude>
+    <location>FINANCIAL ID THEFT: OVER $300</location>
+    <id_loc>f</id_loc>
+    <localizacao/>
+  </crime>
+  <crime>
+    <numero>282971</numero>
+    <id>5268211</id>
+    <case_number>HN140669</case_number>
+    <date>01/01/2001 09:00:00 AM</date>
+    <block>008XX N RIDGEWAY AVE</block>
+    <iucr>0841</iucr>
+    <primary_type>THEFT</primary_type>
+    <description>FINANCIAL ID THEFT:$300 &amp;UNDER</description>
+    <arrest>f</arrest>
+    <domestic>f</domestic>
+    <beat>1112</beat>
+    <district>11</district>
+    <ward>27</ward>
+    <fbi_code>06</fbi_code>
+    <year>2001</year>
+    <updated_on>03/01/2007 07:10:13 AM</updated_on>
+    <id>282971</id>
+    <location_description>5268211</location_description>
+    <community_area>HN140669</community_area>
+    <x_coordinate>01/01/2001 09:00:00 AM</x_coordinate>
+    <y_coordinate>008XX N RIDGEWAY AVE</y_coordinate>
+    <latitude>0841</latitude>
+    <longitude>THEFT</longitude>
+    <location>FINANCIAL ID THEFT:$300 &amp;UNDER</location>
+    <id_loc>f</id_loc>
+    <localizacao/>
+  </crime>
+  <crime>
+    <numero>282974</numero>
+    <id>5268218</id>
+    <case_number>HN140666</case_number>
+    <date>01/02/2001 12:00:00 AM</date>
+    <block>017XX W JULIAN ST</block>
+    <iucr>0841</iucr>
+    <primary_type>THEFT</primary_type>
+    <description>FINANCIAL ID THEFT:$300 &amp;UNDER</description>
+    <arrest>f</arrest>
+    <domestic>f</domestic>
+    <beat>1433</beat>
+    <district>14</district>
+    <ward>1</ward>
+    <fbi_code>06</fbi_code>
+    <year>2001</year>
+    <updated_on>02/09/2007 07:49:56 AM</updated_on>
+    <id>282974</id>
+    <location_description>5268218</location_description>
+    <community_area>HN140666</community_area>
+    <x_coordinate>01/02/2001 12:00:00 AM</x_coordinate>
+    <y_coordinate>017XX W JULIAN ST</y_coordinate>
+    <latitude>0841</latitude>
+    <longitude>THEFT</longitude>
+    <location>FINANCIAL ID THEFT:$300 &amp;UNDER</location>
+    <id_loc>f</id_loc>
+    <localizacao/>
+  </crime>
+  <crime>
+    <numero>289263</numero>
+    <id>5280943</id>
+    <case_number>HN148238</case_number>
+    <date>02/02/2001 12:01:00 AM</date>
+    <block>077XX S UNION AVE</block>
+    <iucr>0910</iucr>
+    <primary_type>MOTOR VEHICLE THEFT</primary_type>
+    <description>AUTOMOBILE</description>
+    <arrest>f</arrest>
+    <domestic>f</domestic>
+    <beat>621</beat>
+    <district>6</district>
+    <ward>17</ward>
+    <fbi_code>07</fbi_code>
+    <year>2001</year>
+    <updated_on>02/01/2007 06:57:55 AM</updated_on>
+    <id>289263</id>
+    <location_description>5280943</location_description>
+    <community_area>HN148238</community_area>
+    <x_coordinate>02/02/2001 12:01:00 AM</x_coordinate>
+    <y_coordinate>077XX S UNION AVE</y_coordinate>
+    <latitude>0910</latitude>
+    <longitude>MOTOR VEHICLE THEFT</longitude>
+    <location>AUTOMOBILE</location>
+    <id_loc>f</id_loc>
+    <localizacao/>
+  </crime>
+  <crime>
+    <numero>289444</numero>
+    <id>5281401</id>
+    <case_number>G114422</case_number>
+    <date>02/26/2001 07:46:31 PM</date>
+    <block>005XX E 51ST ST</block>
+    <iucr>5000</iucr>
+    <primary_type>OTHER OFFENSE</primary_type>
+    <description>OTHER CRIME AGAINST PERSON</description>
+    <arrest>f</arrest>
+    <domestic>f</domestic>
+    <beat>223</beat>
+    <district>2</district>
+    <ward>3</ward>
+    <fbi_code>26</fbi_code>
+    <year>2001</year>
+    <updated_on>02/18/2010 01:12:55 AM</updated_on>
+    <id>289444</id>
+    <location_description>5281401</location_description>
+    <community_area>G114422</community_area>
+    <x_coordinate>02/26/2001 07:46:31 PM</x_coordinate>
+    <y_coordinate>005XX E 51ST ST</y_coordinate>
+    <latitude>5000</latitude>
+    <longitude>OTHER OFFENSE</longitude>
+    <location>OTHER CRIME AGAINST PERSON</location>
+    <id_loc>f</id_loc>
+    <localizacao/>
+  </crime>
+  <crime>
+    <numero>299745</numero>
+    <id>5304005</id>
+    <case_number>HN165569</case_number>
+    <date>01/30/2001 12:00:00 AM</date>
+    <block>059XX S FAIRFIELD AVE</block>
+    <iucr>0841</iucr>
+    <primary_type>THEFT</primary_type>
+    <description>FINANCIAL ID THEFT:$300 &amp;UNDER</description>
+    <arrest>f</arrest>
+    <domestic>t</domestic>
+    <beat>824</beat>
+    <district>8</district>
+    <ward>16</ward>
+    <fbi_code>06</fbi_code>
+    <year>2001</year>
+    <updated_on>02/27/2007 06:32:20 AM</updated_on>
+    <id>299745</id>
+    <location_description>5304005</location_description>
+    <community_area>HN165569</community_area>
+    <x_coordinate>01/30/2001 12:00:00 AM</x_coordinate>
+    <y_coordinate>059XX S FAIRFIELD AVE</y_coordinate>
+    <latitude>0841</latitude>
+    <longitude>THEFT</longitude>
+    <location>FINANCIAL ID THEFT:$300 &amp;UNDER</location>
+    <id_loc>f</id_loc>
+    <localizacao/>
+  </crime>
+  <crime>
+    <numero>301899</numero>
+    <id>5308234</id>
+    <case_number>HN166902</case_number>
+    <date>06/01/2001 12:01:00 AM</date>
+    <block>089XX S LUELLA AVE</block>
+    <iucr>0841</iucr>
+    <primary_type>THEFT</primary_type>
+    <description>FINANCIAL ID THEFT:$300 &amp;UNDER</description>
+    <arrest>f</arrest>
+    <domestic>f</domestic>
+    <beat>413</beat>
+    <district>4</district>
+    <ward>7</ward>
+    <fbi_code>06</fbi_code>
+    <year>2001</year>
+    <updated_on>02/15/2007 06:18:33 AM</updated_on>
+    <id>301899</id>
+    <location_description>5308234</location_description>
+    <community_area>HN166902</community_area>
+    <x_coordinate>06/01/2001 12:01:00 AM</x_coordinate>
+    <y_coordinate>089XX S LUELLA AVE</y_coordinate>
+    <latitude>0841</latitude>
+    <longitude>THEFT</longitude>
+    <location>FINANCIAL ID THEFT:$300 &amp;UNDER</location>
+    <id_loc>f</id_loc>
+    <localizacao/>
+  </crime>
+  <crime>
+    <numero>308846</numero>
+    <id>5320286</id>
+    <case_number>HN179537</case_number>
+    <date>02/01/2001 12:01:00 AM</date>
+    <block>053XX N SHERIDAN RD</block>
+    <iucr>0840</iucr>
+    <primary_type>THEFT</primary_type>
+    <description>FINANCIAL ID THEFT: OVER $300</description>
+    <arrest>f</arrest>
+    <domestic>f</domestic>
+    <beat>2023</beat>
+    <district>20</district>
+    <ward>48</ward>
+    <fbi_code>06</fbi_code>
+    <year>2001</year>
+    <updated_on>03/08/2007 09:51:06 PM</updated_on>
+    <id>308846</id>
+    <location_description>5320286</location_description>
+    <community_area>HN179537</community_area>
+    <x_coordinate>02/01/2001 12:01:00 AM</x_coordinate>
+    <y_coordinate>053XX N SHERIDAN RD</y_coordinate>
+    <latitude>0840</latitude>
+    <longitude>THEFT</longitude>
+    <location>FINANCIAL ID THEFT: OVER $300</location>
+    <id_loc>f</id_loc>
+    <localizacao/>
+  </crime>
+  <crime>
+    <numero>324262</numero>
+    <id>5346522</id>
+    <case_number>HN201679</case_number>
+    <date>02/27/2001 12:01:00 AM</date>
+    <block>006XX W GRACE ST</block>
+    <iucr>0842</iucr>
+    <primary_type>THEFT</primary_type>
+    <description>AGG: FINANCIAL ID THEFT</description>
+    <arrest>f</arrest>
+    <domestic>f</domestic>
+    <beat>2323</beat>
+    <district>19</district>
+    <ward>46</ward>
+    <fbi_code>06</fbi_code>
+    <year>2001</year>
+    <updated_on>03/18/2007 06:37:55 AM</updated_on>
+    <id>324262</id>
+    <location_description>5346522</location_description>
+    <community_area>HN201679</community_area>
+    <x_coordinate>02/27/2001 12:01:00 AM</x_coordinate>
+    <y_coordinate>006XX W GRACE ST</y_coordinate>
+    <latitude>0842</latitude>
+    <longitude>THEFT</longitude>
+    <location>AGG: FINANCIAL ID THEFT</location>
+    <id_loc>f</id_loc>
+    <localizacao/>
+  </crime>
+  <crime>
+    <numero>331044</numero>
+    <id>5358236</id>
+    <case_number>HN212364</case_number>
+    <date>12/08/2001 12:01:00 AM</date>
+    <block>033XX S LEAVITT ST</block>
+    <iucr>0840</iucr>
+    <primary_type>THEFT</primary_type>
+    <description>FINANCIAL ID THEFT: OVER $300</description>
+    <arrest>f</arrest>
+    <domestic>f</domestic>
+    <beat>913</beat>
+    <district>9</district>
+    <ward>12</ward>
+    <fbi_code>06</fbi_code>
+    <year>2001</year>
+    <updated_on>04/17/2007 05:29:41 AM</updated_on>
+    <id>331044</id>
+    <location_description>5358236</location_description>
+    <community_area>HN212364</community_area>
+    <x_coordinate>12/08/2001 12:01:00 AM</x_coordinate>
+    <y_coordinate>033XX S LEAVITT ST</y_coordinate>
+    <latitude>0840</latitude>
+    <longitude>THEFT</longitude>
+    <location>FINANCIAL ID THEFT: OVER $300</location>
+    <id_loc>f</id_loc>
+    <localizacao/>
+  </crime>
+  <crime>
+    <numero>331484</numero>
+    <id>5359017</id>
+    <case_number>HN211578</case_number>
+    <date>09/10/2001 12:00:00 PM</date>
+    <block>0000X S MICHIGAN AVE</block>
+    <iucr>0840</iucr>
+    <primary_type>THEFT</primary_type>
+    <description>FINANCIAL ID THEFT: OVER $300</description>
+    <arrest>f</arrest>
+    <domestic>f</domestic>
+    <beat>123</beat>
+    <district>1</district>
+    <ward>42</ward>
+    <fbi_code>06</fbi_code>
+    <year>2001</year>
+    <updated_on>03/15/2007 06:47:07 PM</updated_on>
+    <id>331484</id>
+    <location_description>5359017</location_description>
+    <community_area>HN211578</community_area>
+    <x_coordinate>09/10/2001 12:00:00 PM</x_coordinate>
+    <y_coordinate>0000X S MICHIGAN AVE</y_coordinate>
+    <latitude>0840</latitude>
+    <longitude>THEFT</longitude>
+    <location>FINANCIAL ID THEFT: OVER $300</location>
+    <id_loc>f</id_loc>
+    <localizacao/>
+  </crime>
+  <crime>
+    <numero>332449</numero>
+    <id>5361403</id>
+    <case_number>HN214366</case_number>
+    <date>11/01/2001 12:01:00 AM</date>
+    <block>001XX N MICHIGAN AVE</block>
+    <iucr>0841</iucr>
+    <primary_type>THEFT</primary_type>
+    <description>FINANCIAL ID THEFT:$300 &amp;UNDER</description>
+    <arrest>f</arrest>
+    <domestic>f</domestic>
+    <beat>124</beat>
+    <district>1</district>
+    <ward>42</ward>
+    <fbi_code>06</fbi_code>
+    <year>2001</year>
+    <updated_on>03/13/2007 05:26:14 AM</updated_on>
+    <id>332449</id>
+    <location_description>5361403</location_description>
+    <community_area>HN214366</community_area>
+    <x_coordinate>11/01/2001 12:01:00 AM</x_coordinate>
+    <y_coordinate>001XX N MICHIGAN AVE</y_coordinate>
+    <latitude>0841</latitude>
+    <longitude>THEFT</longitude>
+    <location>FINANCIAL ID THEFT:$300 &amp;UNDER</location>
+    <id_loc>f</id_loc>
+    <localizacao/>
+  </crime>
+  <crime>
+    <numero>334512</numero>
+    <id>5365211</id>
+    <case_number>HN216152</case_number>
+    <date>03/09/2001 12:19:00 PM</date>
+    <block>005XX N HAMLIN AVE</block>
+    <iucr>0840</iucr>
+    <primary_type>THEFT</primary_type>
+    <description>FINANCIAL ID THEFT: OVER $300</description>
+    <arrest>f</arrest>
+    <domestic>f</domestic>
+    <beat>1122</beat>
+    <district>11</district>
+    <ward>27</ward>
+    <fbi_code>06</fbi_code>
+    <year>2001</year>
+    <updated_on>03/31/2007 07:38:54 AM</updated_on>
+    <id>334512</id>
+    <location_description>5365211</location_description>
+    <community_area>HN216152</community_area>
+    <x_coordinate>03/09/2001 12:19:00 PM</x_coordinate>
+    <y_coordinate>005XX N HAMLIN AVE</y_coordinate>
+    <latitude>0840</latitude>
+    <longitude>THEFT</longitude>
+    <location>FINANCIAL ID THEFT: OVER $300</location>
+    <id_loc>f</id_loc>
+    <localizacao/>
+  </crime>
+  <crime>
+    <numero>336823</numero>
+    <id>5368888</id>
+    <case_number>HN221653</case_number>
+    <date>04/01/2001 12:00:00 AM</date>
+    <block>029XX S WELLS ST</block>
+    <iucr>0840</iucr>
+    <primary_type>THEFT</primary_type>
+    <description>FINANCIAL ID THEFT: OVER $300</description>
+    <arrest>f</arrest>
+    <domestic>f</domestic>
+    <beat>2113</beat>
+    <district>9</district>
+    <ward>11</ward>
+    <fbi_code>06</fbi_code>
+    <year>2001</year>
+    <updated_on>03/23/2007 06:55:06 AM</updated_on>
+    <id>336823</id>
+    <location_description>5368888</location_description>
+    <community_area>HN221653</community_area>
+    <x_coordinate>04/01/2001 12:00:00 AM</x_coordinate>
+    <y_coordinate>029XX S WELLS ST</y_coordinate>
+    <latitude>0840</latitude>
+    <longitude>THEFT</longitude>
+    <location>FINANCIAL ID THEFT: OVER $300</location>
+    <id_loc>f</id_loc>
+    <localizacao/>
+  </crime>
+  <crime>
+    <numero>339127</numero>
+    <id>5372978</id>
+    <case_number>HN224286</case_number>
+    <date>10/01/2001 12:00:00 PM</date>
+    <block>026XX S DRAKE AVE</block>
+    <iucr>0840</iucr>
+    <primary_type>THEFT</primary_type>
+    <description>FINANCIAL ID THEFT: OVER $300</description>
+    <arrest>f</arrest>
+    <domestic>f</domestic>
+    <beat>1032</beat>
+    <district>10</district>
+    <ward>22</ward>
+    <fbi_code>06</fbi_code>
+    <year>2001</year>
+    <updated_on>03/31/2007 07:38:54 AM</updated_on>
+    <id>339127</id>
+    <location_description>5372978</location_description>
+    <community_area>HN224286</community_area>
+    <x_coordinate>10/01/2001 12:00:00 PM</x_coordinate>
+    <y_coordinate>026XX S DRAKE AVE</y_coordinate>
+    <latitude>0840</latitude>
+    <longitude>THEFT</longitude>
+    <location>FINANCIAL ID THEFT: OVER $300</location>
+    <id_loc>f</id_loc>
+    <localizacao/>
+  </crime>
+  <crime>
+    <numero>345597</numero>
+    <id>5384996</id>
+    <case_number>HN234654</case_number>
+    <date>07/10/2001 09:00:00 AM</date>
+    <block>077XX N HERMITAGE AVE</block>
+    <iucr>0841</iucr>
+    <primary_type>THEFT</primary_type>
+    <description>FINANCIAL ID THEFT:$300 &amp;UNDER</description>
+    <arrest>f</arrest>
+    <domestic>f</domestic>
+    <beat>2422</beat>
+    <district>24</district>
+    <ward>49</ward>
+    <fbi_code>06</fbi_code>
+    <year>2001</year>
+    <updated_on>03/28/2007 09:12:21 AM</updated_on>
+    <id>345597</id>
+    <location_description>5384996</location_description>
+    <community_area>HN234654</community_area>
+    <x_coordinate>07/10/2001 09:00:00 AM</x_coordinate>
+    <y_coordinate>077XX N HERMITAGE AVE</y_coordinate>
+    <latitude>0841</latitude>
+    <longitude>THEFT</longitude>
+    <location>FINANCIAL ID THEFT:$300 &amp;UNDER</location>
+    <id_loc>f</id_loc>
+    <localizacao/>
+  </crime>
+  <crime>
+    <numero>349918</numero>
+    <id>5394595</id>
+    <case_number>HN240469</case_number>
+    <date>02/20/2001 10:00:00 AM</date>
+    <block>090XX S LAFLIN ST</block>
+    <iucr>0840</iucr>
+    <primary_type>THEFT</primary_type>
+    <description>FINANCIAL ID THEFT: OVER $300</description>
+    <arrest>f</arrest>
+    <domestic>f</domestic>
+    <beat>2222</beat>
+    <district>22</district>
+    <ward>21</ward>
+    <fbi_code>06</fbi_code>
+    <year>2001</year>
+    <updated_on>04/17/2007 05:29:41 AM</updated_on>
+    <id>349918</id>
+    <location_description>5394595</location_description>
+    <community_area>HN240469</community_area>
+    <x_coordinate>02/20/2001 10:00:00 AM</x_coordinate>
+    <y_coordinate>090XX S LAFLIN ST</y_coordinate>
+    <latitude>0840</latitude>
+    <longitude>THEFT</longitude>
+    <location>FINANCIAL ID THEFT: OVER $300</location>
+    <id_loc>f</id_loc>
+    <localizacao/>
+  </crime>
+  <crime>
+    <numero>354784</numero>
+    <id>5404036</id>
+    <case_number>HN249094</case_number>
+    <date>03/26/2001 12:00:00 AM</date>
+    <block>076XX S PRAIRIE AVE</block>
+    <iucr>0840</iucr>
+    <primary_type>THEFT</primary_type>
+    <description>FINANCIAL ID THEFT: OVER $300</description>
+    <arrest>f</arrest>
+    <domestic>f</domestic>
+    <beat>623</beat>
+    <district>6</district>
+    <ward>6</ward>
+    <fbi_code>06</fbi_code>
+    <year>2001</year>
+    <updated_on>03/31/2007 07:38:54 AM</updated_on>
+    <id>354784</id>
+    <location_description>5404036</location_description>
+    <community_area>HN249094</community_area>
+    <x_coordinate>03/26/2001 12:00:00 AM</x_coordinate>
+    <y_coordinate>076XX S PRAIRIE AVE</y_coordinate>
+    <latitude>0840</latitude>
+    <longitude>THEFT</longitude>
+    <location>FINANCIAL ID THEFT: OVER $300</location>
+    <id_loc>f</id_loc>
+    <localizacao/>
+  </crime>
+</crimes>
