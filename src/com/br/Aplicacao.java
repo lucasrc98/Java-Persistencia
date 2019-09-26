@@ -86,7 +86,7 @@ public class Aplicacao {
 		
 		// LER UMA QUANTIDADE DETERMINADA DE DADOS
 		for (int i = 0; i < QUANTIDADE_EXIBICAO; i++) {
-			linha = leitorCsv.readLine();// LER LINHA DO CSV
+			linha = leitorCsv.readLine().replaceAll("\"", "");// LER LINHA DO CSV REMOVENDO AS ASPAS DUPLA
 			data = linha.split(",");  // Delemitador
 		
 			// CRIA NOVO ELEMENTO
@@ -120,7 +120,7 @@ public class Aplicacao {
 			localizacao.appendChild(createElement(document, "y_coordinate", data[17]));
 			localizacao.appendChild(createElement(document, "latitude", data[20]));
 			localizacao.appendChild(createElement(document, "longitude", data[21]));
-			localizacao.appendChild(createElement(document, "location", data[22]));
+			localizacao.appendChild(createElement(document, "location", data[22] + "," + data[23]));
 			//localizacao.appendChild(createElement(document, "id_loc", data[]));
 			
 	
