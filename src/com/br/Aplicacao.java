@@ -17,6 +17,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 
+import com.br.metodos.CrimesSAX;
 import com.br.metodos.LerFiles;
 import com.br.metodos.TransformarFiles;
 import com.br.models.Crime;
@@ -69,6 +70,7 @@ public class Aplicacao {
 	        
 	        leitorCsv.close();
 			
+	        convertToJson();
 			
 		}catch (Exception e) {
 			// TODO: handle exception
@@ -94,34 +96,34 @@ public class Aplicacao {
 			
 			// SETANDO OS ATRIBUTOS DO ELEMENTO
 			crime.appendChild(createElement(document, "numero", data[0])); 
-			crime.appendChild(createElement(document, "id", data[1]));
+			crime.appendChild(createElement(document, "id_crime", data[1]));
 			crime.appendChild(createElement(document, "case_number", data[2]));
 			crime.appendChild(createElement(document, "date", data[3]));
 			crime.appendChild(createElement(document, "block", data[4]));
 			crime.appendChild(createElement(document, "iucr", data[5]));
 			crime.appendChild(createElement(document, "primary_type", data[6]));
 			crime.appendChild(createElement(document, "description", data[7]));
-			crime.appendChild(createElement(document, "arrest", data[8]));
-			crime.appendChild(createElement(document, "domestic", data[9]));
-			crime.appendChild(createElement(document, "beat", data[10]));
-			crime.appendChild(createElement(document, "district", data[11]));
-			crime.appendChild(createElement(document, "ward", data[12]));
-			crime.appendChild(createElement(document, "fbi_code", data[13]));
-			crime.appendChild(createElement(document, "year", data[14]));
-			crime.appendChild(createElement(document, "updated_on", data[15]));
+			crime.appendChild(createElement(document, "arrest", data[9]));
+			crime.appendChild(createElement(document, "domestic", data[10]));
+			crime.appendChild(createElement(document, "beat", data[11]));
+			crime.appendChild(createElement(document, "district", data[12]));
+			crime.appendChild(createElement(document, "ward", data[13]));
+			crime.appendChild(createElement(document, "fbi_code", data[15]));
+			crime.appendChild(createElement(document, "year", data[18]));
+			crime.appendChild(createElement(document, "updated_on", data[19]));
 			
 
 			Element localizacao = document.createElement("localizacao"); 
 			
-			crime.appendChild(createElement(document, "id", data[0])); 
-			crime.appendChild(createElement(document, "location_description", data[1]));
-			crime.appendChild(createElement(document, "community_area", data[2]));
-			crime.appendChild(createElement(document, "x_coordinate", data[3]));
-			crime.appendChild(createElement(document, "y_coordinate", data[4]));
-			crime.appendChild(createElement(document, "latitude", data[5]));
-			crime.appendChild(createElement(document, "longitude", data[6]));
-			crime.appendChild(createElement(document, "location", data[7]));
-			crime.appendChild(createElement(document, "id_loc", data[8]));
+			localizacao.appendChild(createElement(document, "id_crime", data[1])); 
+			localizacao.appendChild(createElement(document, "location_description", data[8]));
+			localizacao.appendChild(createElement(document, "community_area", data[14]));
+			localizacao.appendChild(createElement(document, "x_coordinate", data[16]));
+			localizacao.appendChild(createElement(document, "y_coordinate", data[17]));
+			localizacao.appendChild(createElement(document, "latitude", data[20]));
+			localizacao.appendChild(createElement(document, "longitude", data[21]));
+			localizacao.appendChild(createElement(document, "location", data[22]));
+			//localizacao.appendChild(createElement(document, "id_loc", data[]));
 			
 	
 			crime.appendChild(localizacao);
@@ -135,5 +137,10 @@ public class Aplicacao {
 		Element node = doc.createElement(name);
 		node.appendChild(doc.createTextNode(value));
 		return node;
+	}
+	
+	private static void convertToJson() {
+		CrimesSAX crimesSAX = new CrimesSAX();
+		crimesSAX.fazerParsing(FILE_XML, FILE_JSON);
 	}
 }

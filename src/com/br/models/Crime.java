@@ -3,7 +3,7 @@ package com.br.models;
 public class Crime {
 
 	private String numero;
-	private String id;
+	private String id_crime;
 	private String case_number;
 	private String date;
 	private String block;
@@ -27,11 +27,20 @@ public class Crime {
 	public void setNumero(String numero) {
 		this.numero = numero;
 	}
-	public String getId() {
-		return id;
+
+	
+	
+	public String getId_crime() {
+		return id_crime;
 	}
-	public void setId(String id) {
-		this.id = id;
+	public void setId_crime(String id_crime) {
+		this.id_crime = id_crime;
+	}
+	public Localizacao getLocalizacaoObj() {
+		return localizacaoObj;
+	}
+	public void setLocalizacaoObj(Localizacao localizacaoObj) {
+		this.localizacaoObj = localizacaoObj;
 	}
 	public String getCase_number() {
 		return case_number;
@@ -120,12 +129,11 @@ public class Crime {
 	
 	@Override
 	public String toString() {
-		return "Crime [numero=" + numero + ", id=" + id + ", case_number=" + case_number + ", date=" + date + ", block="
-				+ block + ", iucr=" + iucr + ", primary_type=" + primary_type + ", description=" + description
-				+ ", arrest=" + arrest + ", domestic=" + domestic + ", beat=" + beat + ", district=" + district
-				+ ", ward=" + ward + ", fbi_code=" + fbi_code + ", year=" + year + ", updated_on=" + updated_on
-				+ ", localizacaoObj=" + localizacaoObj + "]";
-	}
-	
+		return "Crime [numero=" + numero + ", id_crime=" + id_crime + ", case_number=" + case_number + ", date=" + date
+				+ ", block=" + block + ", iucr=" + iucr + ", primary_type=" + primary_type + ", description="
+				+ description + ", arrest=" + arrest + ", domestic=" + domestic + ", beat=" + beat + ", district="
+				+ district + ", ward=" + ward + ", fbi_code=" + fbi_code + ", year=" + year + ", updated_on="
+				+ updated_on + ", localizacaoObj=" + localizacaoObj + "]";
+	}	
 	
 }
