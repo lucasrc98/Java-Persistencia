@@ -75,22 +75,22 @@ public class Aplicacao {
 				
 				String[] moeda = linha.split(csvSeparatorCampo);
 				
-				System.out.println("[Data = " + moeda[0]
-						+ " ,  = 1 " + moeda[1]
-						+ " , dados  = 2 " + moeda[2]
-						+ " , dados  = 3 " + moeda[3]
-						+ " , dados  = 4 " + moeda[4]
-						+ " , dados  = 5 " + moeda[5]
-						+ " , dados  = 6 " + moeda[6]
-						+ " , dados  = 7 " + moeda[7]
-						+ " , dados  = 8 " + moeda[8]
-						+ " , dados  = 9 " + moeda[9]
-						+ " , dados  = 10 " + moeda[10]
-						+ " , dados  = 11 " + moeda[11]
-						+ " , dados  = 12 " + moeda[12]
-						+ " , dados  = 13 " + moeda[13]
-						+ " , dados  = 14 " + moeda[14]
-						+ " , dados  = 15 " + moeda[15] + "]");						
+				System.out.println("[dados 0 = " + moeda[0]
+						+ " , dados 1 = " + moeda[1]
+						+ " , dados 2 = " + moeda[2]
+						+ " , dados 3 = " + moeda[3]
+						+ " , dados 4= " + moeda[4]
+						+ " , dados 5= " + moeda[5]
+						+ " , dados 6= " + moeda[6]
+						+ " , dados 7 = " + moeda[7]
+						+ " , dados 8 = " + moeda[8]
+						+ " , dados 9 = " + moeda[9]
+						+ " , dados 10 = " + moeda[10]
+						+ " , dados 11 = " + moeda[11]
+						+ " , dados 12 = " + moeda[12]
+						+ " , dados 13 = " + moeda[13]
+						+ " , dados 14 = " + moeda[14]
+						+ " , dados 15 = " + moeda[15] + "]");						
 			} 
 			
 		} catch (FileNotFoundException e) {
