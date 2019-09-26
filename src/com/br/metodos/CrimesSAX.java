@@ -64,19 +64,101 @@ public class CrimesSAX extends DefaultHandler {
 		switch (qName) {
 		case "crime":
 		crimeAtual = new Crime();
-//		crimeAtual.setInscricao(atts.getValue(0));
 		crimes.add(crimeAtual);
 		break;
 		
 		case "localizacao":
 		localizacaoAtual = new Localizacao();
-//		crimeAtual.add(localizacaoAtual);
+		crimeAtual.setLocalizacaoObj(localizacaoAtual);
+		break;
 		}
 		
 	}
 
 	public void endElement(String uri, String localName, String qName) throws SAXException {
 		tagAtual = "";
+	}
+	
+	public void characters(char[] ch, int start, int length) throws SAXException {
+
+		String texto = new String(ch, start, length);
+
+		switch (tagAtual) {
+		case "numero":
+			crimeAtual.setNumero(texto);
+			break;
+		case "id_crime":
+			crimeAtual.setId_crime(texto);
+			break;
+		case "case_number":
+			crimeAtual.setCase_number(texto);
+			break;
+		case "date":
+			crimeAtual.setDate(texto);
+			break;
+		case "iucr":
+			crimeAtual.setIucr(texto);
+			break;
+		case "primary_type":
+			crimeAtual.setPrimary_type(texto);
+			break;
+		case "description":
+			crimeAtual.setDescription(texto);
+			break;
+		case "arrest":
+			crimeAtual.setArrest(texto);
+			break;
+		case "domestic":
+			crimeAtual.setDomestic(texto);
+			break;
+		case "beat":
+			crimeAtual.setBeat(texto);
+			break;
+		case "district":
+			crimeAtual.setDistrict(texto);
+			break;
+		case "ward":
+			crimeAtual.setWard(texto);
+			break;
+		case "fbi_code":
+			crimeAtual.setFbi_code(texto);
+			break;
+		case "year":
+			crimeAtual.setYear(texto);
+			break;
+		case "updated_on":
+			crimeAtual.setUpdated_on(texto);
+			break;
+		case "id":
+			localizacaoAtual.setId(texto);
+			break;
+		case "location_description":
+			localizacaoAtual.setLocation_description(texto);
+			break;			
+		case "community_area":
+			localizacaoAtual.setCommunity_area(texto);
+			break;			
+		case "x_coordinate":
+			localizacaoAtual.setX_coordinate(texto);
+			break;		
+		case "y_coordinate":
+			localizacaoAtual.setY_coordinate(texto);
+			break;	
+		case "latitude":
+			localizacaoAtual.setLatitude(texto);
+			break;	
+		case "longitude":
+			localizacaoAtual.setLongitude(texto);
+			break;
+		case "location":
+			localizacaoAtual.setLocation(texto);
+			break;
+		case "id_loc":
+			localizacaoAtual.setId_loc(texto);
+			break;
+		default:
+			break;
+		}
 	}
 	
 	

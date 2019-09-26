@@ -134,6 +134,6 @@ public class Crime {
 				+ description + ", arrest=" + arrest + ", domestic=" + domestic + ", beat=" + beat + ", district="
 				+ district + ", ward=" + ward + ", fbi_code=" + fbi_code + ", year=" + year + ", updated_on="
 				+ updated_on + ", localizacaoObj=" + localizacaoObj + "]";
-	}	
+	}
 	
 }
