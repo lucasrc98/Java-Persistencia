@@ -29,9 +29,9 @@ public class Aplicacao {
 	
 	private final static Integer QUANTIDADE_EXIBICAO = 20;
 	
-	private static String FILE_CSV = "D:\\Git\\Java-Persistencia\\files\\chicago-crimes.csv";
-	private static String FILE_XML = "D:\\Git\\Java-Persistencia\\files\\chicago-crimes.xml";
-	private static String FILE_JSON = "D:\\Git\\Java-Persistencia\\files\\chicago-crimes.json";
+	private static String FILE_CSV = "/home/lucas/git/persistencia/Java-Persistencia/files/chicago-crimes.csv";
+	private static String FILE_XML = "/home/lucas/git/persistencia/Java-Persistencia/files/chicago-crimes.xml";
+	private static String FILE_JSON = "/home/lucas/git/persistencia/Java-Persistencia/files/chicago-crimes.json";
 	
 	
 	public static void main(String[] args) {

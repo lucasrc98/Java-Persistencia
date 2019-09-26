@@ -2,13 +2,14 @@ package com.br.metodos;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.jar.Attributes;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
+import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
@@ -27,6 +28,11 @@ public class CrimesSAX extends DefaultHandler {
 	
 	private Crime crimeAtual;
 	private Localizacao localizacaoAtual;
+	
+	public CrimesSAX() {
+		super();
+		this.crimes = new ArrayList<Crime>();
+	}
 	
 	public void fazerParsing(String pathArq, String pathJson) {
 		this.pathJson = pathJson;
