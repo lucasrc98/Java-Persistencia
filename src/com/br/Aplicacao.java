@@ -52,7 +52,7 @@ public class Aplicacao {
 			document.appendChild(raiz);
 			
 			// LER DADOS DO CSV
-			lerDados(leitorCsv, document, raiz);
+			criaXML(leitorCsv, document, raiz);
 			
 			TransformerFactory transformerFactory = TransformerFactory.newInstance();
 	        Transformer transf = transformerFactory.newTransformer();
@@ -69,30 +69,28 @@ public class Aplicacao {
 	        transf.transform(source, file);
 	        
 	        leitorCsv.close();
-			
 	        convertToJson();
+	        
+	        System.out.println("Deu bom na main");
 			
 		}catch (Exception e) {
 			// TODO: handle exception
-		}
-		
-		
+		}	
 		
 	}
 	
-	private static void lerDados(BufferedReader leitorCsv, Document document, Element raiz) throws IOException {
+	private static void criaXML(BufferedReader leitorCsv, Document document, Element raiz) throws IOException {
 		String linha;
 		String[] data;
 		leitorCsv.readLine();
 		
 		// LER UMA QUANTIDADE DETERMINADA DE DADOS
 		for (int i = 0; i < QUANTIDADE_EXIBICAO; i++) {
-			linha = leitorCsv.readLine(); // LER LINHA DO CSV
-			data = linha.split(",");  // GERA UM ARRAY 
+			linha = leitorCsv.readLine();// LER LINHA DO CSV
+			data = linha.split(",");  // Delemitador
 		
 			// CRIA NOVO ELEMENTO
 			Element crime = document.createElement("crime");
-			
 			
 			// SETANDO OS ATRIBUTOS DO ELEMENTO
 			crime.appendChild(createElement(document, "numero", data[0])); 
@@ -129,9 +127,9 @@ public class Aplicacao {
 			crime.appendChild(localizacao);
 
 			raiz.appendChild(crime);
-
-
 		}
+		
+		System.out.println("XML criado");
 	}
 	private static Element createElement(Document doc, String name, String value) {
 		Element node = doc.createElement(name);
