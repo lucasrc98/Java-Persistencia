@@ -25,7 +25,7 @@
       <y_coordinate>1899330</y_coordinate>
       <latitude>41.879258911</latitude>
       <longitude>-87.651262835</longitude>
-      <location>"(41.879258911</location>
+      <location>(41.879258911, -87.651262835)</location>
     </localizacao>
   </crime>
   <crime>
@@ -53,7 +53,7 @@
       <y_coordinate>1867558</y_coordinate>
       <latitude>41.791967537</latitude>
       <longitude>-87.634528523</longitude>
-      <location>"(41.791967537</location>
+      <location>(41.791967537, -87.634528523)</location>
     </localizacao>
   </crime>
   <crime>
@@ -81,7 +81,7 @@
       <y_coordinate>1870019</y_coordinate>
       <latitude>41.798873369</latitude>
       <longitude>-87.660004607</longitude>
-      <location>"(41.798873369</location>
+      <location>(41.798873369, -87.660004607)</location>
     </localizacao>
   </crime>
   <crime>
@@ -109,7 +109,7 @@
       <y_coordinate>1905605</y_coordinate>
       <latitude>41.896866058</latitude>
       <longitude>-87.719875458</longitude>
-      <location>"(41.896866058</location>
+      <location>(41.896866058, -87.719875458)</location>
     </localizacao>
   </crime>
   <crime>
@@ -137,7 +137,7 @@
       <y_coordinate>1909831</y_coordinate>
       <latitude>41.908196281</latitude>
       <longitude>-87.671795783</longitude>
-      <location>"(41.908196281</location>
+      <location>(41.908196281, -87.671795783)</location>
     </localizacao>
   </crime>
   <crime>
@@ -165,7 +165,7 @@
       <y_coordinate>1853698</y_coordinate>
       <latitude>41.753974063</latitude>
       <longitude>-87.641541263</longitude>
-      <location>"(41.753974063</location>
+      <location>(41.753974063, -87.641541263)</location>
     </localizacao>
   </crime>
   <crime>
@@ -193,7 +193,7 @@
       <y_coordinate>1871347</y_coordinate>
       <latitude>41.802238398</latitude>
       <longitude>-87.613918511</longitude>
-      <location>"(41.802238398</location>
+      <location>(41.802238398, -87.613918511)</location>
     </localizacao>
   </crime>
   <crime>
@@ -221,7 +221,7 @@
       <y_coordinate>1865075</y_coordinate>
       <latitude>41.785489839</latitude>
       <longitude>-87.692206172</longitude>
-      <location>"(41.785489839</location>
+      <location>(41.785489839, -87.692206172)</location>
     </localizacao>
   </crime>
   <crime>
@@ -249,7 +249,7 @@
       <y_coordinate>1845837</y_coordinate>
       <latitude>41.731945794</latitude>
       <longitude>-87.569659049</longitude>
-      <location>"(41.731945794</location>
+      <location>(41.731945794, -87.569659049)</location>
     </localizacao>
   </crime>
   <crime>
@@ -277,7 +277,7 @@
       <y_coordinate>1935397</y_coordinate>
       <latitude>41.978257946</latitude>
       <longitude>-87.65517969</longitude>
-      <location>"(41.978257946</location>
+      <location>(41.978257946, -87.65517969)</location>
     </localizacao>
   </crime>
   <crime>
@@ -305,7 +305,7 @@
       <y_coordinate>1925811</y_coordinate>
       <latitude>41.951899593</latitude>
       <longitude>-87.646364227</longitude>
-      <location>"(41.951899593</location>
+      <location>(41.951899593, -87.646364227)</location>
     </localizacao>
   </crime>
   <crime>
@@ -333,7 +333,7 @@
       <y_coordinate>1882479</y_coordinate>
       <latitude>41.833183094</latitude>
       <longitude>-87.68010208</longitude>
-      <location>"(41.833183094</location>
+      <location>(41.833183094, -87.68010208)</location>
     </localizacao>
   </crime>
   <crime>
@@ -361,7 +361,7 @@
       <y_coordinate>1900255</y_coordinate>
       <latitude>41.881635267</latitude>
       <longitude>-87.62450045</longitude>
-      <location>"(41.881635267</location>
+      <location>(41.881635267, -87.62450045)</location>
     </localizacao>
   </crime>
   <crime>
@@ -389,7 +389,7 @@
       <y_coordinate>1901337</y_coordinate>
       <latitude>41.884603381</latitude>
       <longitude>-87.624313404</longitude>
-      <location>"(41.884603381</location>
+      <location>(41.884603381, -87.624313404)</location>
     </localizacao>
   </crime>
   <crime>
@@ -417,7 +417,7 @@
       <y_coordinate>1903630</y_coordinate>
       <latitude>41.891453395</latitude>
       <longitude>-87.721227403</longitude>
-      <location>"(41.891453395</location>
+      <location>(41.891453395, -87.721227403)</location>
     </localizacao>
   </crime>
   <crime>
@@ -445,7 +445,7 @@
       <y_coordinate>1885261</y_coordinate>
       <latitude>41.840538881</latitude>
       <longitude>-87.632800274</longitude>
-      <location>"(41.840538881</location>
+      <location>(41.840538881, -87.632800274)</location>
     </localizacao>
   </crime>
   <crime>
@@ -473,7 +473,7 @@
       <y_coordinate>1886231</y_coordinate>
       <latitude>41.84366415</latitude>
       <longitude>-87.713403568</longitude>
-      <location>"(41.84366415</location>
+      <location>(41.84366415, -87.713403568)</location>
     </localizacao>
   </crime>
   <crime>
@@ -501,7 +501,7 @@
       <y_coordinate>1951249</y_coordinate>
       <latitude>42.021869039</latitude>
       <longitude>-87.67410027</longitude>
-      <location>"(42.021869039</location>
+      <location>(42.021869039, -87.67410027)</location>
     </localizacao>
   </crime>
   <crime>
@@ -529,7 +529,7 @@
       <y_coordinate>1844587</y_coordinate>
       <latitude>41.729082013</latitude>
       <longitude>-87.660290623</longitude>
-      <location>"(41.729082013</location>
+      <location>(41.729082013, -87.660290623)</location>
     </localizacao>
   </crime>
   <crime>
@@ -557,7 +557,7 @@
       <y_coordinate>1854173</y_coordinate>
       <latitude>41.755135889</latitude>
       <longitude>-87.618391929</longitude>
-      <location>"(41.755135889</location>
+      <location>(41.755135889, -87.618391929)</location>
     </localizacao>
   </crime>
 </crimes>

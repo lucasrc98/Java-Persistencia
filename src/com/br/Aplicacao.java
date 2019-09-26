@@ -52,7 +52,7 @@ public class Aplicacao {
 			document.appendChild(raiz);
 			
 			// LER DADOS DO CSV
-			lerDados(leitorCsv, document, raiz);
+			criaXML(leitorCsv, document, raiz);
 			
 			TransformerFactory transformerFactory = TransformerFactory.newInstance();
 	        Transformer transf = transformerFactory.newTransformer();
@@ -69,30 +69,28 @@ public class Aplicacao {
 	        transf.transform(source, file);
 	        
 	        leitorCsv.close();
-			
 	        convertToJson();
+	        
+	        System.out.println("Deu bom na main");
 			
 		}catch (Exception e) {
 			// TODO: handle exception
-		}
-		
-		
+		}	
 		
 	}
 	
-	private static void lerDados(BufferedReader leitorCsv, Document document, Element raiz) throws IOException {
+	private static void criaXML(BufferedReader leitorCsv, Document document, Element raiz) throws IOException {
 		String linha;
 		String[] data;
 		leitorCsv.readLine();
 		
 		// LER UMA QUANTIDADE DETERMINADA DE DADOS
 		for (int i = 0; i < QUANTIDADE_EXIBICAO; i++) {
-			linha = leitorCsv.readLine(); // LER LINHA DO CSV
-			data = linha.split(",");  // GERA UM ARRAY 
+			linha = leitorCsv.readLine().replaceAll("\"", "");// LER LINHA DO CSV REMOVENDO AS ASPAS DUPLA
+			data = linha.split(",");  // Delemitador
 		
 			// CRIA NOVO ELEMENTO
 			Element crime = document.createElement("crime");
-			
 			
 			// SETANDO OS ATRIBUTOS DO ELEMENTO
 			crime.appendChild(createElement(document, "numero", data[0])); 
@@ -122,16 +120,16 @@ public class Aplicacao {
 			localizacao.appendChild(createElement(document, "y_coordinate", data[17]));
 			localizacao.appendChild(createElement(document, "latitude", data[20]));
 			localizacao.appendChild(createElement(document, "longitude", data[21]));
-			localizacao.appendChild(createElement(document, "location", data[22]));
+			localizacao.appendChild(createElement(document, "location", data[22] + "," + data[23]));
 			//localizacao.appendChild(createElement(document, "id_loc", data[]));
 			
 	
 			crime.appendChild(localizacao);
 
 			raiz.appendChild(crime);
-
-
 		}
+		
+		System.out.println("XML criado");
 	}
 	private static Element createElement(Document doc, String name, String value) {
 		Element node = doc.createElement(name);
