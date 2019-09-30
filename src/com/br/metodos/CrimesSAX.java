@@ -13,6 +13,7 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
+import com.br.models.Codigos;
 import com.br.models.Crime;
 import com.br.models.Localizacao;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -28,6 +29,8 @@ public class CrimesSAX extends DefaultHandler {
 	
 	private Crime crimeAtual;
 	private Localizacao localizacaoAtual;
+	private Codigos codigosAtual;
+	
 	
 	public CrimesSAX() {
 		super();
@@ -68,15 +71,21 @@ public class CrimesSAX extends DefaultHandler {
 		tagAtual = qName;
 		
 		switch (qName) {
-		case "crime":
-		crimeAtual = new Crime();
-		crimes.add(crimeAtual);
-		break;
 		
+		case "crime":
+			crimeAtual = new Crime();
+			crimes.add(crimeAtual);
+			break;
+			
 		case "localizacao":
-		localizacaoAtual = new Localizacao();
-		crimeAtual.setLocalizacaoObj(localizacaoAtual);
-		break;
+			localizacaoAtual = new Localizacao();
+			crimeAtual.setLocalizacaoObj(localizacaoAtual);
+			break;
+		
+		case "codigos":
+			codigosAtual = new Codigos();
+			crimeAtual.setCodigosObj(codigosAtual);
+			break;
 		}
 		
 	}
@@ -90,20 +99,18 @@ public class CrimesSAX extends DefaultHandler {
 		String texto = new String(ch, start, length);
 
 		switch (tagAtual) {
-		case "numero":
-			crimeAtual.setNumero(texto);
-			break;
+
 		case "id_crime":
 			crimeAtual.setId_crime(texto);
 			break;
-		case "case_number":
-			crimeAtual.setCase_number(texto);
+		case "numero":
+			crimeAtual.setNumero(texto);
 			break;
 		case "date":
 			crimeAtual.setDate(texto);
 			break;
-		case "iucr":
-			crimeAtual.setIucr(texto);
+		case "block":
+			crimeAtual.setBlock(texto);
 			break;
 		case "primary_type":
 			crimeAtual.setPrimary_type(texto);
@@ -117,17 +124,8 @@ public class CrimesSAX extends DefaultHandler {
 		case "domestic":
 			crimeAtual.setDomestic(texto);
 			break;
-		case "beat":
-			crimeAtual.setBeat(texto);
-			break;
 		case "district":
 			crimeAtual.setDistrict(texto);
-			break;
-		case "ward":
-			crimeAtual.setWard(texto);
-			break;
-		case "fbi_code":
-			crimeAtual.setFbi_code(texto);
 			break;
 		case "year":
 			crimeAtual.setYear(texto);
@@ -135,8 +133,10 @@ public class CrimesSAX extends DefaultHandler {
 		case "updated_on":
 			crimeAtual.setUpdated_on(texto);
 			break;
-		case "id":
-			localizacaoAtual.setId(texto);
+
+		
+		case "id_loc":
+			localizacaoAtual.setId_loc(texto);
 			break;
 		case "location_description":
 			localizacaoAtual.setLocation_description(texto);
@@ -159,9 +159,27 @@ public class CrimesSAX extends DefaultHandler {
 		case "location":
 			localizacaoAtual.setLocation(texto);
 			break;
-		case "id_loc":
-			localizacaoAtual.setId_loc(texto);
+
+			
+		case "id_cod":
+			codigosAtual.setId_cod(texto);
 			break;
+		case "case_number":
+			codigosAtual.setCase_number(texto);
+			break;
+		case "iucr":
+			codigosAtual.setIucr(texto);
+			break;
+		case "beat":
+			codigosAtual.setBeat(texto);
+			break;
+		case "ward":
+			codigosAtual.setWard(texto);
+			break;
+		case "fbi_code":
+			codigosAtual.setFbi_code(texto);
+			break;
+			
 		default:
 			break;
 		}
