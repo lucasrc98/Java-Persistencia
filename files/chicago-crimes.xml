@@ -620,4 +620,314 @@
       <fbi_code>06</fbi_code>
     </codigos>
   </crime>
+  <crime>
+    <id_crime>4708622</id_crime>
+    <numero>23659</numero>
+    <date>05/23/2003 09:00:00 AM</date>
+    <block>026XX S HOMAN AVE</block>
+    <primary_type>THEFT</primary_type>
+    <description>FINANCIAL ID THEFT: OVER $300</description>
+    <arrest>f</arrest>
+    <domestic>f</domestic>
+    <district>10</district>
+    <year>2003</year>
+    <updated_on>04/15/2016 08:55:02 AM</updated_on>
+    <localizacao>
+      <id_loc>35</id_loc>
+      <location_description>RESIDENCE</location_description>
+      <community_area>30</community_area>
+      <x_coordinate>1154123</x_coordinate>
+      <y_coordinate>1886283</y_coordinate>
+      <latitude>41.843787854</latitude>
+      <longitude>-87.709893838</longitude>
+      <location>(41.843787854, -87.709893838)</location>
+    </localizacao>
+    <codigos>
+      <id_doc>35</id_doc>
+      <case_number>HM312347</case_number>
+      <iucr>0840</iucr>
+      <beat>1032</beat>
+      <ward>22</ward>
+      <fbi_code>06</fbi_code>
+    </codigos>
+  </crime>
+  <crime>
+    <id_crime>4709062</id_crime>
+    <numero>23921</numero>
+    <date>06/18/2003 09:00:00 AM</date>
+    <block>001XX E 58TH ST</block>
+    <primary_type>THEFT</primary_type>
+    <description>FINANCIAL ID THEFT: OVER $300</description>
+    <arrest>f</arrest>
+    <domestic>t</domestic>
+    <district>2</district>
+    <year>2003</year>
+    <updated_on>04/15/2016 08:55:02 AM</updated_on>
+    <localizacao>
+      <id_loc>36</id_loc>
+      <location_description>RESIDENCE</location_description>
+      <community_area>40</community_area>
+      <x_coordinate>1178280</x_coordinate>
+      <y_coordinate>1866596</y_coordinate>
+      <latitude>41.789249657</latitude>
+      <longitude>-87.621841243</longitude>
+      <location>(41.789249657, -87.621841243)</location>
+    </localizacao>
+    <codigos>
+      <id_doc>36</id_doc>
+      <case_number>HM313501</case_number>
+      <iucr>0840</iucr>
+      <beat>233</beat>
+      <ward>20</ward>
+      <fbi_code>06</fbi_code>
+    </codigos>
+  </crime>
+  <crime>
+    <id_crime>4709502</id_crime>
+    <numero>24196</numero>
+    <date>12/01/2003 12:01:00 AM</date>
+    <block>047XX W DIVERSEY AVE</block>
+    <primary_type>THEFT</primary_type>
+    <description>FINANCIAL ID THEFT: OVER $300</description>
+    <arrest>f</arrest>
+    <domestic>f</domestic>
+    <district>25</district>
+    <year>2003</year>
+    <updated_on>04/15/2016 08:55:02 AM</updated_on>
+    <localizacao>
+      <id_loc>37</id_loc>
+      <location_description>OTHER</location_description>
+      <community_area>19</community_area>
+      <x_coordinate>1144490</x_coordinate>
+      <y_coordinate>1918201</y_coordinate>
+      <latitude>41.931561031</latitude>
+      <longitude>-87.74444156</longitude>
+      <location>(41.931561031, -87.74444156)</location>
+    </localizacao>
+    <codigos>
+      <id_doc>37</id_doc>
+      <case_number>HM314530</case_number>
+      <iucr>0840</iucr>
+      <beat>2521</beat>
+      <ward>31</ward>
+      <fbi_code>06</fbi_code>
+    </codigos>
+  </crime>
+  <crime>
+    <id_crime>4710526</id_crime>
+    <numero>24886</numero>
+    <date>08/01/2003 09:00:00 AM</date>
+    <block>051XX W WASHINGTON BLVD</block>
+    <primary_type>THEFT</primary_type>
+    <description>FINANCIAL ID THEFT:$300 &amp;UNDER</description>
+    <arrest>f</arrest>
+    <domestic>f</domestic>
+    <district>15</district>
+    <year>2003</year>
+    <updated_on>04/15/2016 08:55:02 AM</updated_on>
+    <localizacao>
+      <id_loc>38</id_loc>
+      <location_description>RESIDENCE</location_description>
+      <community_area>25</community_area>
+      <x_coordinate>1142160</x_coordinate>
+      <y_coordinate>1900019</y_coordinate>
+      <latitude>41.88171118</latitude>
+      <longitude>-87.753455712</longitude>
+      <location>(41.88171118, -87.753455712)</location>
+    </localizacao>
+    <codigos>
+      <id_doc>38</id_doc>
+      <case_number>HM274261</case_number>
+      <iucr>0841</iucr>
+      <beat>1533</beat>
+      <ward>28</ward>
+      <fbi_code>06</fbi_code>
+    </codigos>
+  </crime>
+  <crime>
+    <id_crime>4711465</id_crime>
+    <numero>25378</numero>
+    <date>07/07/2003 12:00:00 AM</date>
+    <block>046XX N MARINE DR</block>
+    <primary_type>THEFT</primary_type>
+    <description>FINANCIAL ID THEFT: OVER $300</description>
+    <arrest>f</arrest>
+    <domestic>f</domestic>
+    <district>19</district>
+    <year>2003</year>
+    <updated_on>04/15/2016 08:55:02 AM</updated_on>
+    <localizacao>
+      <id_loc>40</id_loc>
+      <location_description>STREET</location_description>
+      <community_area>3</community_area>
+      <x_coordinate>1170399</x_coordinate>
+      <y_coordinate>1931093</y_coordinate>
+      <latitude>41.966409353</latitude>
+      <longitude>-87.648852157</longitude>
+      <location>(41.966409353, -87.648852157)</location>
+    </localizacao>
+    <codigos>
+      <id_doc>40</id_doc>
+      <case_number>HM315884</case_number>
+      <iucr>0840</iucr>
+      <beat>2312</beat>
+      <ward>46</ward>
+      <fbi_code>06</fbi_code>
+    </codigos>
+  </crime>
+  <crime>
+    <id_crime>4711723</id_crime>
+    <numero>25570</numero>
+    <date>08/09/2003 12:00:00 PM</date>
+    <block>077XX S LAFLIN ST</block>
+    <primary_type>DECEPTIVE PRACTICE</primary_type>
+    <description>CREDIT CARD FRAUD</description>
+    <arrest>f</arrest>
+    <domestic>f</domestic>
+    <district>6</district>
+    <year>2003</year>
+    <updated_on>04/15/2016 08:55:02 AM</updated_on>
+    <localizacao>
+      <id_loc>41</id_loc>
+      <location_description>RESIDENCE</location_description>
+      <community_area>71</community_area>
+      <x_coordinate>1167456</x_coordinate>
+      <y_coordinate>1853484</y_coordinate>
+      <latitude>41.753507587</latitude>
+      <longitude>-87.661904591</longitude>
+      <location>(41.753507587, -87.661904591)</location>
+    </localizacao>
+    <codigos>
+      <id_doc>41</id_doc>
+      <case_number>HM317057</case_number>
+      <iucr>1150</iucr>
+      <beat>612</beat>
+      <ward>17</ward>
+      <fbi_code>11</fbi_code>
+    </codigos>
+  </crime>
+  <crime>
+    <id_crime>4718225</id_crime>
+    <numero>30616</numero>
+    <date>11/01/2003 12:35:00 PM</date>
+    <block>063XX S ELLIS AVE</block>
+    <primary_type>OTHER OFFENSE</primary_type>
+    <description>HARASSMENT BY TELEPHONE</description>
+    <arrest>f</arrest>
+    <domestic>f</domestic>
+    <district>3</district>
+    <year>2003</year>
+    <updated_on>04/15/2016 08:55:02 AM</updated_on>
+    <localizacao>
+      <id_loc>48</id_loc>
+      <location_description>RESIDENCE</location_description>
+      <community_area>42</community_area>
+      <x_coordinate>1184145</x_coordinate>
+      <y_coordinate>1863207</y_coordinate>
+      <latitude>41.779814746</latitude>
+      <longitude>-87.600442358</longitude>
+      <location>(41.779814746, -87.600442358)</location>
+    </localizacao>
+    <codigos>
+      <id_doc>48</id_doc>
+      <case_number>HM319881</case_number>
+      <iucr>2825</iucr>
+      <beat>314</beat>
+      <ward>20</ward>
+      <fbi_code>26</fbi_code>
+    </codigos>
+  </crime>
+  <crime>
+    <id_crime>4835774</id_crime>
+    <numero>31047</numero>
+    <date>01/01/2001 12:00:00 AM</date>
+    <block>022XX W 80TH ST</block>
+    <primary_type>THEFT</primary_type>
+    <description>AGG: FINANCIAL ID THEFT</description>
+    <arrest>f</arrest>
+    <domestic>f</domestic>
+    <district>8</district>
+    <year>2001</year>
+    <updated_on>07/10/2006 03:52:16 AM</updated_on>
+    <localizacao>
+      <id_loc>51</id_loc>
+      <location_description>OTHER</location_description>
+      <community_area>70</community_area>
+      <x_coordinate>1162750</x_coordinate>
+      <y_coordinate>1851604</y_coordinate>
+      <latitude>41.748448075</latitude>
+      <longitude>-87.679202816</longitude>
+      <location>(41.748448075, -87.679202816)</location>
+    </localizacao>
+    <codigos>
+      <id_doc>51</id_doc>
+      <case_number>HM440784</case_number>
+      <iucr>0842</iucr>
+      <beat>835</beat>
+      <ward>18</ward>
+      <fbi_code>06</fbi_code>
+    </codigos>
+  </crime>
+  <crime>
+    <id_crime>4722424</id_crime>
+    <numero>33684</numero>
+    <date>10/01/2003 12:00:00 AM</date>
+    <block>002XX W 22ND PL</block>
+    <primary_type>THEFT</primary_type>
+    <description>AGG: FINANCIAL ID THEFT</description>
+    <arrest>f</arrest>
+    <domestic>f</domestic>
+    <district>9</district>
+    <year>2003</year>
+    <updated_on>04/15/2016 08:55:02 AM</updated_on>
+    <localizacao>
+      <id_loc>53</id_loc>
+      <location_description>RESIDENCE</location_description>
+      <community_area>34</community_area>
+      <x_coordinate>1175048</x_coordinate>
+      <y_coordinate>1889495</y_coordinate>
+      <latitude>41.852159338</latitude>
+      <longitude>-87.633007505</longitude>
+      <location>(41.852159338, -87.633007505)</location>
+    </localizacao>
+    <codigos>
+      <id_doc>53</id_doc>
+      <case_number>HM325827</case_number>
+      <iucr>0842</iucr>
+      <beat>2111</beat>
+      <ward>25</ward>
+      <fbi_code>06</fbi_code>
+    </codigos>
+  </crime>
+  <crime>
+    <id_crime>4724079</id_crime>
+    <numero>34838</numero>
+    <date>08/03/2003 12:01:00 AM</date>
+    <block>051XX S FRANCISCO AVE</block>
+    <primary_type>THEFT</primary_type>
+    <description>FINANCIAL ID THEFT: OVER $300</description>
+    <arrest>f</arrest>
+    <domestic>f</domestic>
+    <district>9</district>
+    <year>2003</year>
+    <updated_on>04/15/2016 08:55:02 AM</updated_on>
+    <localizacao>
+      <id_loc>54</id_loc>
+      <location_description>RESIDENCE</location_description>
+      <community_area>63</community_area>
+      <x_coordinate>1157911</x_coordinate>
+      <y_coordinate>1870458</y_coordinate>
+      <latitude>41.8002858</latitude>
+      <longitude>-87.69642307</longitude>
+      <location>(41.8002858, -87.69642307)</location>
+    </localizacao>
+    <codigos>
+      <id_doc>54</id_doc>
+      <case_number>HM328405</case_number>
+      <iucr>0840</iucr>
+      <beat>911</beat>
+      <ward>14</ward>
+      <fbi_code>06</fbi_code>
+    </codigos>
+  </crime>
 </crimes>

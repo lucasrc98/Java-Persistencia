@@ -12,6 +12,7 @@ import javax.xml.parsers.SAXParserFactory;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
+import com.br.models.Codigos;
 import com.br.models.Crime;
 import com.br.models.Localizacao;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -27,6 +28,7 @@ public class CrimesSAX extends DefaultHandler {
 	
 	private Crime crimeAtual;
 	private Localizacao localizacaoAtual;
+	private Codigos codigosAtual;
 	
 	public void fazerParsing(String pathArq, String pathJson) {
 		this.pathJson = pathJson;
@@ -71,6 +73,11 @@ public class CrimesSAX extends DefaultHandler {
 		case "localizacao":
 		localizacaoAtual = new Localizacao();
 //		crimeAtual.add(localizacaoAtual);
+		break;
+		
+		case "codigos":
+		codigosAtual = new Codigos();
+		break;
 		}
 		
 	}

@@ -27,7 +27,7 @@ import com.br.models.Localizacao;
 
 public class Aplicacao {
 	
-	private final static Integer QUANTIDADE_EXIBICAO = 20;
+	private final static Integer QUANTIDADE_EXIBICAO = 30;
 	
 	private static String FILE_CSV = "D:\\Git\\Java-Persistencia\\files\\chicago-crimes.csv";
 	private static String FILE_XML = "D:\\Git\\Java-Persistencia\\files\\chicago-crimes.xml";
