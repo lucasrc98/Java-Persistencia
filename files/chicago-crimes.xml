@@ -23,7 +23,7 @@
       <location>(41.691784636, -87.635115968)</location>
     </localizacao>
     <codigos>
-      <id_doc>5</id_doc>
+      <id_cod>5</id_cod>
       <case_number>HM275615</case_number>
       <iucr>0841</iucr>
       <beat>2233</beat>
@@ -54,7 +54,7 @@
       <location>(41.687020002, -87.60844523)</location>
     </localizacao>
     <codigos>
-      <id_doc>7</id_doc>
+      <id_cod>7</id_cod>
       <case_number>HM403711</case_number>
       <iucr>0266</iucr>
       <beat>531</beat>
@@ -85,7 +85,7 @@
       <location>(41.729712374, -87.653158513)</location>
     </localizacao>
     <codigos>
-      <id_doc>8</id_doc>
+      <id_cod>8</id_cod>
       <case_number>HM216293</case_number>
       <iucr>5007</iucr>
       <beat>2222</beat>
@@ -116,7 +116,7 @@
       <location>(41.869772159, -87.708180162)</location>
     </localizacao>
     <codigos>
-      <id_doc>10</id_doc>
+      <id_cod>10</id_cod>
       <case_number>HM282389</case_number>
       <iucr>0840</iucr>
       <beat>1134</beat>
@@ -147,7 +147,7 @@
       <location>(41.724330486, -87.638434248)</location>
     </localizacao>
     <codigos>
-      <id_doc>11</id_doc>
+      <id_cod>11</id_cod>
       <case_number>HM282286</case_number>
       <iucr>0840</iucr>
       <beat>2223</beat>
@@ -178,7 +178,7 @@
       <location>(41.783163561, -87.727772951)</location>
     </localizacao>
     <codigos>
-      <id_doc>13</id_doc>
+      <id_cod>13</id_cod>
       <case_number>HM286351</case_number>
       <iucr>0840</iucr>
       <beat>813</beat>
@@ -209,7 +209,7 @@
       <location>(41.831494381, -87.667977499)</location>
     </localizacao>
     <codigos>
-      <id_doc>15</id_doc>
+      <id_cod>15</id_cod>
       <case_number>HM288497</case_number>
       <iucr>0840</iucr>
       <beat>922</beat>
@@ -240,7 +240,7 @@
       <location>(41.778921304, -87.706364915)</location>
     </localizacao>
     <codigos>
-      <id_doc>16</id_doc>
+      <id_cod>16</id_cod>
       <case_number>HM287080</case_number>
       <iucr>0840</iucr>
       <beat>823</beat>
@@ -271,7 +271,7 @@
       <location>(41.911824751, -87.715753397)</location>
     </localizacao>
     <codigos>
-      <id_doc>17</id_doc>
+      <id_cod>17</id_cod>
       <case_number>HM290677</case_number>
       <iucr>0840</iucr>
       <beat>1422</beat>
@@ -302,7 +302,7 @@
       <location>(41.791518681, -87.729098793)</location>
     </localizacao>
     <codigos>
-      <id_doc>18</id_doc>
+      <id_cod>18</id_cod>
       <case_number>HM414773</case_number>
       <iucr>1753</iucr>
       <beat>813</beat>
@@ -333,7 +333,7 @@
       <location>(41.834522994, -87.682642417)</location>
     </localizacao>
     <codigos>
-      <id_doc>19</id_doc>
+      <id_cod>19</id_cod>
       <case_number>HM417252</case_number>
       <iucr>0840</iucr>
       <beat>913</beat>
@@ -364,7 +364,7 @@
       <location>(41.778539988, -87.674035599)</location>
     </localizacao>
     <codigos>
-      <id_doc>21</id_doc>
+      <id_cod>21</id_cod>
       <case_number>HM423298</case_number>
       <iucr>1754</iucr>
       <beat>726</beat>
@@ -395,7 +395,7 @@
       <location>(41.771736514, -87.66400571)</location>
     </localizacao>
     <codigos>
-      <id_doc>23</id_doc>
+      <id_cod>23</id_cod>
       <case_number>HM294072</case_number>
       <iucr>0910</iucr>
       <beat>725</beat>
@@ -426,7 +426,7 @@
       <location>(41.745267715, -87.699825354)</location>
     </localizacao>
     <codigos>
-      <id_doc>24</id_doc>
+      <id_cod>24</id_cod>
       <case_number>HM300702</case_number>
       <iucr>0840</iucr>
       <beat>835</beat>
@@ -457,7 +457,7 @@
       <location>(41.975821967, -87.807053208)</location>
     </localizacao>
     <codigos>
-      <id_doc>25</id_doc>
+      <id_cod>25</id_cod>
       <case_number>HM301419</case_number>
       <iucr>0810</iucr>
       <beat>1613</beat>
@@ -488,7 +488,7 @@
       <location>(41.896808547, -87.762472408)</location>
     </localizacao>
     <codigos>
-      <id_doc>26</id_doc>
+      <id_cod>26</id_cod>
       <case_number>HM402010</case_number>
       <iucr>1563</iucr>
       <beat>1524</beat>
@@ -519,7 +519,7 @@
       <location>(41.766012869, -87.58288376)</location>
     </localizacao>
     <codigos>
-      <id_doc>27</id_doc>
+      <id_cod>27</id_cod>
       <case_number>HM302756</case_number>
       <iucr>0840</iucr>
       <beat>324</beat>
@@ -550,7 +550,7 @@
       <location>(41.87799981, -87.64308039)</location>
     </localizacao>
     <codigos>
-      <id_doc>32</id_doc>
+      <id_cod>32</id_cod>
       <case_number>HM306283</case_number>
       <iucr>0841</iucr>
       <beat>111</beat>
@@ -581,7 +581,7 @@
       <location>(41.921794873, -87.713268849)</location>
     </localizacao>
     <codigos>
-      <id_doc>33</id_doc>
+      <id_cod>33</id_cod>
       <case_number>HM434610</case_number>
       <iucr>0840</iucr>
       <beat>1413</beat>
@@ -612,7 +612,7 @@
       <location>(41.772186514, -87.638570496)</location>
     </localizacao>
     <codigos>
-      <id_doc>34</id_doc>
+      <id_cod>34</id_cod>
       <case_number>HM431335</case_number>
       <iucr>0840</iucr>
       <beat>722</beat>
@@ -643,7 +643,7 @@
       <location>(41.843787854, -87.709893838)</location>
     </localizacao>
     <codigos>
-      <id_doc>35</id_doc>
+      <id_cod>35</id_cod>
       <case_number>HM312347</case_number>
       <iucr>0840</iucr>
       <beat>1032</beat>
@@ -674,7 +674,7 @@
       <location>(41.789249657, -87.621841243)</location>
     </localizacao>
     <codigos>
-      <id_doc>36</id_doc>
+      <id_cod>36</id_cod>
       <case_number>HM313501</case_number>
       <iucr>0840</iucr>
       <beat>233</beat>
@@ -705,7 +705,7 @@
       <location>(41.931561031, -87.74444156)</location>
     </localizacao>
     <codigos>
-      <id_doc>37</id_doc>
+      <id_cod>37</id_cod>
       <case_number>HM314530</case_number>
       <iucr>0840</iucr>
       <beat>2521</beat>
@@ -736,7 +736,7 @@
       <location>(41.88171118, -87.753455712)</location>
     </localizacao>
     <codigos>
-      <id_doc>38</id_doc>
+      <id_cod>38</id_cod>
       <case_number>HM274261</case_number>
       <iucr>0841</iucr>
       <beat>1533</beat>
@@ -767,7 +767,7 @@
       <location>(41.966409353, -87.648852157)</location>
     </localizacao>
     <codigos>
-      <id_doc>40</id_doc>
+      <id_cod>40</id_cod>
       <case_number>HM315884</case_number>
       <iucr>0840</iucr>
       <beat>2312</beat>
@@ -798,7 +798,7 @@
       <location>(41.753507587, -87.661904591)</location>
     </localizacao>
     <codigos>
-      <id_doc>41</id_doc>
+      <id_cod>41</id_cod>
       <case_number>HM317057</case_number>
       <iucr>1150</iucr>
       <beat>612</beat>
@@ -829,7 +829,7 @@
       <location>(41.779814746, -87.600442358)</location>
     </localizacao>
     <codigos>
-      <id_doc>48</id_doc>
+      <id_cod>48</id_cod>
       <case_number>HM319881</case_number>
       <iucr>2825</iucr>
       <beat>314</beat>
@@ -860,7 +860,7 @@
       <location>(41.748448075, -87.679202816)</location>
     </localizacao>
     <codigos>
-      <id_doc>51</id_doc>
+      <id_cod>51</id_cod>
       <case_number>HM440784</case_number>
       <iucr>0842</iucr>
       <beat>835</beat>
@@ -891,7 +891,7 @@
       <location>(41.852159338, -87.633007505)</location>
     </localizacao>
     <codigos>
-      <id_doc>53</id_doc>
+      <id_cod>53</id_cod>
       <case_number>HM325827</case_number>
       <iucr>0842</iucr>
       <beat>2111</beat>
@@ -922,7 +922,7 @@
       <location>(41.8002858, -87.69642307)</location>
     </localizacao>
     <codigos>
-      <id_doc>54</id_doc>
+      <id_cod>54</id_cod>
       <case_number>HM328405</case_number>
       <iucr>0840</iucr>
       <beat>911</beat>

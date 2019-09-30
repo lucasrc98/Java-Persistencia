@@ -2,7 +2,7 @@ package com.br.models;
 
 public class Localizacao {
 	
-	private String id;
+	private String id_loc;
 	private String location_description;
 	private String community_area;
 	private String x_coordinate;
@@ -10,14 +10,13 @@ public class Localizacao {
 	private String latitude;
 	private String longitude;
 	private String location;
-	private String id_loc;
 	
 	
-	public String getId() {
-		return id;
+	public String getId_loc() {
+		return id_loc;
 	}
-	public void setId(String id) {
-		this.id = id;
+	public void setId_loc(String id_loc) {
+		this.id_loc = id_loc;
 	}
 	public String getLocation_description() {
 		return location_description;
@@ -61,18 +60,13 @@ public class Localizacao {
 	public void setLocation(String location) {
 		this.location = location;
 	}
-	public String getId_loc() {
-		return id_loc;
-	}
-	public void setId_loc(String id_loc) {
-		this.id_loc = id_loc;
-	}
+
 	
 	@Override
 	public String toString() {
-		return "Localizacao [id=" + id + ", location_description=" + location_description + ", community_area="
+		return "Localizacao [id_loc = " + id_loc + ", location_description=" + location_description + ", community_area="
 				+ community_area + ", x_coordinate=" + x_coordinate + ", y_coordinate=" + y_coordinate + ", latitude="
-				+ latitude + ", longitude=" + longitude + ", location=" + location + ", id_loc=" + id_loc + "]";
+				+ latitude + ", longitude=" + longitude + ", location=" + location + "]";
 	}
 	
 	

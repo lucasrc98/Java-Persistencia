@@ -122,7 +122,7 @@ public class Aplicacao {
 	
 			Element codigos = document.createElement("codigos");
 			
-			codigos.appendChild(createElement(document, "id_doc", data[24]));
+			codigos.appendChild(createElement(document, "id_cod", data[24]));
 			codigos.appendChild(createElement(document, "case_number", data[2]));
 			codigos.appendChild(createElement(document, "iucr", data[5]));
 			codigos.appendChild(createElement(document, "beat", data[11]));

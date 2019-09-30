@@ -2,12 +2,20 @@ package com.br.models;
 
 public class Codigos {
 	
+	private String id_cod;
 	private String case_number;
 	private String iucr;
 	private String beat;
 	private String ward;
 	private String fbi_code;
 	
+	
+	public String getId_cod() {
+		return id_cod;
+	}
+	public void setId_cod(String id_cod) {
+		this.id_cod = id_cod;
+	}
 	public String getCase_number() {
 		return case_number;
 	}

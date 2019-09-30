@@ -2,24 +2,21 @@ package com.br.models;
 
 public class Crime {
 
-	private String numero;
+
 	private String id_crime;
-	private String case_number;
+	private String numero;
 	private String date;
 	private String block;
-	private String iucr;
 	private String primary_type;
 	private String description;
 	private String arrest;
 	private String domestic;
-	private String beat;
 	private String district;
-	private String ward;
-	private String fbi_code;
 	private String year;
 	private String updated_on;
 	
 	Localizacao localizacaoObj;
+	Codigos codigosObj;
 	
 	public String getNumero() {
 		return numero;
@@ -36,18 +33,21 @@ public class Crime {
 	public void setId_crime(String id_crime) {
 		this.id_crime = id_crime;
 	}
+	
+	
+	public Codigos getCodigosObj() {
+		return codigosObj;
+	}
+	public void setCodigosObj(Codigos codigosObj) {
+		this.codigosObj = codigosObj;
+	}
 	public Localizacao getLocalizacaoObj() {
 		return localizacaoObj;
 	}
 	public void setLocalizacaoObj(Localizacao localizacaoObj) {
 		this.localizacaoObj = localizacaoObj;
 	}
-	public String getCase_number() {
-		return case_number;
-	}
-	public void setCase_number(String case_number) {
-		this.case_number = case_number;
-	}
+
 	public String getDate() {
 		return date;
 	}
@@ -60,12 +60,7 @@ public class Crime {
 	public void setBlock(String block) {
 		this.block = block;
 	}
-	public String getIucr() {
-		return iucr;
-	}
-	public void setIucr(String iucr) {
-		this.iucr = iucr;
-	}
+
 	public String getPrimary_type() {
 		return primary_type;
 	}
@@ -90,30 +85,15 @@ public class Crime {
 	public void setDomestic(String domestic) {
 		this.domestic = domestic;
 	}
-	public String getBeat() {
-		return beat;
-	}
-	public void setBeat(String beat) {
-		this.beat = beat;
-	}
+
 	public String getDistrict() {
 		return district;
 	}
 	public void setDistrict(String district) {
 		this.district = district;
 	}
-	public String getWard() {
-		return ward;
-	}
-	public void setWard(String ward) {
-		this.ward = ward;
-	}
-	public String getFbi_code() {
-		return fbi_code;
-	}
-	public void setFbi_code(String fbi_code) {
-		this.fbi_code = fbi_code;
-	}
+
+
 	public String getYear() {
 		return year;
 	}
@@ -129,11 +109,10 @@ public class Crime {
 	
 	@Override
 	public String toString() {
-		return "Crime [numero=" + numero + ", id_crime=" + id_crime + ", case_number=" + case_number + ", date=" + date
-				+ ", block=" + block + ", iucr=" + iucr + ", primary_type=" + primary_type + ", description="
-				+ description + ", arrest=" + arrest + ", domestic=" + domestic + ", beat=" + beat + ", district="
-				+ district + ", ward=" + ward + ", fbi_code=" + fbi_code + ", year=" + year + ", updated_on="
-				+ updated_on + ", localizacaoObj=" + localizacaoObj + "]";
+		return "Crime [id_crime=" + id_crime + ", numero=" + numero + ", date=" + date + ", block=" + block
+				+ ", primary_type=" + primary_type + ", description=" + description + ", arrest=" + arrest
+				+ ", domestic=" + domestic + ", district=" + district + ", year=" + year + ", updated_on=" + updated_on
+				+ ", localizacaoObj=" + localizacaoObj + ", codigosObj=" + codigosObj + "]";
 	}	
 	
 }
