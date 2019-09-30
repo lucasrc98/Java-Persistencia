@@ -93,27 +93,23 @@ public class Aplicacao {
 			Element crime = document.createElement("crime");
 			
 			// SETANDO OS ATRIBUTOS DO ELEMENTO
-			crime.appendChild(createElement(document, "numero", data[0])); 
+
 			crime.appendChild(createElement(document, "id_crime", data[1]));
-			crime.appendChild(createElement(document, "case_number", data[2]));
+			crime.appendChild(createElement(document, "numero", data[0])); 
 			crime.appendChild(createElement(document, "date", data[3]));
 			crime.appendChild(createElement(document, "block", data[4]));
-			crime.appendChild(createElement(document, "iucr", data[5]));
 			crime.appendChild(createElement(document, "primary_type", data[6]));
 			crime.appendChild(createElement(document, "description", data[7]));
 			crime.appendChild(createElement(document, "arrest", data[9]));
 			crime.appendChild(createElement(document, "domestic", data[10]));
-			crime.appendChild(createElement(document, "beat", data[11]));
 			crime.appendChild(createElement(document, "district", data[12]));
-			crime.appendChild(createElement(document, "ward", data[13]));
-			crime.appendChild(createElement(document, "fbi_code", data[15]));
 			crime.appendChild(createElement(document, "year", data[18]));
 			crime.appendChild(createElement(document, "updated_on", data[19]));
 			
 
 			Element localizacao = document.createElement("localizacao"); 
 			
-			localizacao.appendChild(createElement(document, "id_crime", data[1])); 
+			localizacao.appendChild(createElement(document, "id_loc", data[25])); 
 			localizacao.appendChild(createElement(document, "location_description", data[8]));
 			localizacao.appendChild(createElement(document, "community_area", data[14]));
 			localizacao.appendChild(createElement(document, "x_coordinate", data[16]));
@@ -124,8 +120,19 @@ public class Aplicacao {
 			//localizacao.appendChild(createElement(document, "id_loc", data[]));
 			
 	
+			Element codigos = document.createElement("codigos");
+			
+			codigos.appendChild(createElement(document, "id_doc", data[24]));
+			codigos.appendChild(createElement(document, "case_number", data[2]));
+			codigos.appendChild(createElement(document, "iucr", data[5]));
+			codigos.appendChild(createElement(document, "beat", data[11]));
+			codigos.appendChild(createElement(document, "ward", data[13]));
+			codigos.appendChild(createElement(document, "fbi_code", data[15]));
+			
+			
 			crime.appendChild(localizacao);
-
+			crime.appendChild(codigos);
+			
 			raiz.appendChild(crime);
 		}
 		
