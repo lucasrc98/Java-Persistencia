@@ -1,0 +1,121 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT crimes (crime)+>
+<!ATTLIST crimes
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT crime (id_crime,numero,date,block,primary_type,description,
+                 arrest,domestic,district,year,updated_on,localizacao,
+                 codigos)>
+<!ATTLIST crime
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT id_crime (#PCDATA)>
+<!ATTLIST id_crime
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT numero (#PCDATA)>
+<!ATTLIST numero
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT date (#PCDATA)>
+<!ATTLIST date
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT block (#PCDATA)>
+<!ATTLIST block
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT primary_type (#PCDATA)>
+<!ATTLIST primary_type
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT description (#PCDATA)>
+<!ATTLIST description
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT arrest (#PCDATA)>
+<!ATTLIST arrest
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT domestic (#PCDATA)>
+<!ATTLIST domestic
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT district (#PCDATA)>
+<!ATTLIST district
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT year (#PCDATA)>
+<!ATTLIST year
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT updated_on (#PCDATA)>
+<!ATTLIST updated_on
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT localizacao (id_loc,location_description,community_area,
+                       x_coordinate,y_coordinate,latitude,longitude,
+                       location)>
+<!ATTLIST localizacao
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT codigos (id_cod,case_number,iucr,beat,ward,fbi_code)>
+<!ATTLIST codigos
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT id_loc (#PCDATA)>
+<!ATTLIST id_loc
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT location_description (#PCDATA)>
+<!ATTLIST location_description
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT community_area (#PCDATA)>
+<!ATTLIST community_area
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT x_coordinate (#PCDATA)>
+<!ATTLIST x_coordinate
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT y_coordinate (#PCDATA)>
+<!ATTLIST y_coordinate
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT latitude (#PCDATA)>
+<!ATTLIST latitude
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT longitude (#PCDATA)>
+<!ATTLIST longitude
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT location (#PCDATA)>
+<!ATTLIST location
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT id_cod (#PCDATA)>
+<!ATTLIST id_cod
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT case_number (#PCDATA)>
+<!ATTLIST case_number
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT iucr (#PCDATA)>
+<!ATTLIST iucr
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT beat (#PCDATA)>
+<!ATTLIST beat
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT ward (#PCDATA)>
+<!ATTLIST ward
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT fbi_code (#PCDATA)>
+<!ATTLIST fbi_code
+  xmlns CDATA #FIXED ''>
